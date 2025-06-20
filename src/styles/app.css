@@ -1,7 +1,9 @@
-/* Layout & Base Styles */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap");
+
 body {
   min-height: 100vh;
-  font-family: "Roboto", "Segoe UI", sans-serif;
+  font-family: "Noto Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", "Roboto",
+    "Segoe UI", sans-serif;
   background-color: #f8f9fa;
   color: #212529;
   margin: 0;
@@ -143,12 +145,55 @@ a:hover img {
 
 /* Responsive Enhancements */
 @media (max-width: 768px) {
+  td,
+  th {
+    font-size: 0.6rem;
+  }
+
+  .navbar.sticky-top {
+    z-index: 2000; /* Đảm bảo cao hơn .search-container */
+  }
+
   .search-box {
     justify-content: center;
     margin-top: 1rem;
   }
 
+  .hiragana-text {
+    font-size: 0.6rem;
+  }
+
+  .kanji-text {
+    font-size: 0.6rem;
+  }
+
+  .vocab-row:hover {
+    background-color: inherit !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
   .total-count {
-    text-align: center;
+    display: none !important;
+  }
+  .search-container {
+    position: sticky;
+    top: 64px; /* Độ cao navbar, chỉnh nếu navbar của bạn cao hơn/thấp hơn */
+    z-index: 1050;
+  }
+  .search-container .card {
+    margin-bottom: 0;
+  }
+  /* margin-top không cần nếu dùng sticky */
+  .vocabulary-table-container {
+    margin-top: 0;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .row {
+    background-color: transparent;
   }
 }
