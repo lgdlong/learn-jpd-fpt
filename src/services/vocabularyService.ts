@@ -1,19 +1,29 @@
 import originalVocabularies from "../data/vocabularies.json";
 import type { JapaneseVocabulary } from "../types";
 
+// Sort vocabularies by romaji alphabetically
+const sortByRomaji = (
+  vocabularies: JapaneseVocabulary[]
+): JapaneseVocabulary[] => {
+  return [...vocabularies].sort((a, b) =>
+    a.romaji.toLowerCase().localeCompare(b.romaji.toLowerCase())
+  );
+};
+
 // Get vocabularies from localStorage or fallback
 const getStoredVocabularies = (): JapaneseVocabulary[] => {
-  if (typeof window === "undefined") return [...originalVocabularies]; // SSR safe
+  if (typeof window === "undefined")
+    return sortByRomaji([...originalVocabularies]); // SSR safe
 
   const storedData = localStorage.getItem("vocabularies");
   if (storedData) {
     try {
-      return JSON.parse(storedData);
+      return sortByRomaji(JSON.parse(storedData));
     } catch (e) {
       console.error("Failed to parse stored vocabularies:", e);
     }
   }
-  return [...originalVocabularies];
+  return sortByRomaji([...originalVocabularies]);
 };
 
 // Get all vocabularies
@@ -25,7 +35,7 @@ export const getVocabularies = (): JapaneseVocabulary[] => {
 export const addVocabulary = (vocabulary: JapaneseVocabulary): void => {
   const vocabs = getStoredVocabularies();
   const updated = [...vocabs, vocabulary];
-  localStorage.setItem("vocabularies", JSON.stringify(updated));
+  localStorage.setItem("vocabularies", JSON.stringify(sortByRomaji(updated)));
 };
 
 // Update vocabulary
@@ -35,14 +45,14 @@ export const updateVocabulary = (
 ): void => {
   const vocabs = getStoredVocabularies();
   vocabs[index] = vocabulary;
-  localStorage.setItem("vocabularies", JSON.stringify(vocabs));
+  localStorage.setItem("vocabularies", JSON.stringify(sortByRomaji(vocabs)));
 };
 
 // Remove vocabulary
 export const removeVocabulary = (index: number): void => {
   const vocabs = getStoredVocabularies();
   const updated = vocabs.filter((_, i) => i !== index);
-  localStorage.setItem("vocabularies", JSON.stringify(updated));
+  localStorage.setItem("vocabularies", JSON.stringify(sortByRomaji(updated)));
 };
 
 // Export vocabularies as JSON file
@@ -70,5 +80,8 @@ export const fixDataStructure = (): void => {
     vietnamese: vocab.vietnamese || "",
   }));
 
-  localStorage.setItem("vocabularies", JSON.stringify(fixedVocabs));
+  localStorage.setItem(
+    "vocabularies",
+    JSON.stringify(sortByRomaji(fixedVocabs))
+  );
 };
