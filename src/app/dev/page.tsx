@@ -39,9 +39,7 @@ export default function DevPageContainer() {
 
   if (!isAdmin) {
     // Chặn, chuyển hướng về trang chủ (client-side)
-    if (typeof window !== "undefined") {
-      window.location.href = "/";
-    }
+    router.replace("/");
     return <h1>Bạn không có quyền truy cập trang này.</h1>;
   }
 
