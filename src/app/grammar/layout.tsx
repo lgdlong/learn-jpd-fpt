@@ -11,7 +11,7 @@ export default function GrammarLayout({
 }>) {
   return (
     <>
-      <div className="main-content-gammar mx-auto">{children}</div>
+      <div className="main-content-grammar mx-auto">{children}</div>
       <Script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         strategy="afterInteractive"
