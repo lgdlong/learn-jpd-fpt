@@ -145,7 +145,11 @@ a:hover img {
 @media (max-width: 768px) {
   td,
   th {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+  }
+
+  .main-content {
+    max-width: 100%;
   }
 
   .navbar.sticky-top {
@@ -158,11 +162,11 @@ a:hover img {
   }
 
   .hiragana-text {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 
   .kanji-text {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 
   .vocab-row:hover {
@@ -193,5 +197,16 @@ a:hover img {
 
   .row {
     background-color: transparent;
+  }
+  .table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  .table th,
+  .table td {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: unset;
+    word-break: break-word; /* Dòng này giúp tự động xuống dòng nếu từ quá dài */
   }
 }

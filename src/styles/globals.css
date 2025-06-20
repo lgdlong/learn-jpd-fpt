@@ -75,8 +75,4 @@ button:focus-visible {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .main-content {
-    max-width: 90%;
-  }
-}
+
