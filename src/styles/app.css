@@ -1,0 +1,154 @@
+/* Layout & Base Styles */
+body {
+  min-height: 100vh;
+  font-family: "Roboto", "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+}
+
+#root {
+  margin: 0 auto;
+  width: 100vw;
+}
+
+/* Container width for desktop */
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Japanese Text Styling */
+.kanji-text {
+  font-size: 1.2rem;
+}
+
+.hiragana-text {
+  font-size: 1.1rem;
+}
+
+/* Table Styling */
+.vocabulary-table-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 12px 16px;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+thead th {
+  font-weight: bold;
+  background-color: #007bff !important;
+  color: white !important;
+  border: 1px solid #dee2e6;
+}
+
+/* Table Row Hover */
+.vocab-row {
+  transition: all 0.2s ease;
+}
+
+.vocab-row:hover {
+  background-color: #f0f7ff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Container Styling */
+.search-container .card {
+  border-radius: 12px;
+  background-color: white;
+  transition: all 0.3s ease;
+  border: 1px solid #dee2e6;
+}
+
+#search-type-btn {
+  border: 1px solid #dee2e6;
+}
+
+.search-input-container {
+  width: 100%;
+}
+
+.search-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Count Badge */
+.total-count .badge {
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+}
+
+/* Navbar Styling */
+.navbar.sticky-top {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1030;
+}
+
+.navbar {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Logo Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) img {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Hover Effects */
+a img {
+  transition: transform 0.3s ease;
+}
+
+a:hover img {
+  transform: scale(1.1);
+}
+
+/* Dark Background Utility */
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .search-box {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .total-count {
+    text-align: center;
+  }
+}

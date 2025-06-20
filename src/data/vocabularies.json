@@ -1,0 +1,830 @@
+[
+  {
+    "kanji": "話します",
+    "hiragana": "はなします",
+    "romaji": "hanashimasu",
+    "vietnamese": "Nói"
+  },
+  {
+    "kanji": "行きます",
+    "hiragana": "いきます",
+    "romaji": "ikimasu",
+    "vietnamese": "Đi"
+  },
+  {
+    "kanji": "来ます",
+    "hiragana": "きます",
+    "romaji": "kimasu",
+    "vietnamese": "Tới"
+  },
+  {
+    "kanji": "会話",
+    "hiragana": "かいわ",
+    "romaji": "kaiwa",
+    "vietnamese": "Hội thoại"
+  },
+  {
+    "kanji": "社会",
+    "hiragana": "しゃかい",
+    "romaji": "shakai",
+    "vietnamese": "Xã hội"
+  },
+  {
+    "kanji": "会います",
+    "hiragana": "あいます",
+    "romaji": "aimasu",
+    "vietnamese": "Gặp gỡ"
+  },
+  {
+    "kanji": "買います",
+    "hiragana": "かいます",
+    "romaji": "kaimasu",
+    "vietnamese": "Mua"
+  },
+  {
+    "kanji": "見ます",
+    "hiragana": "みます",
+    "romaji": "mimasu",
+    "vietnamese": "Xem"
+  },
+  {
+    "kanji": "読みます",
+    "hiragana": "よみます",
+    "romaji": "yomimasu",
+    "vietnamese": "Đọc"
+  },
+  {
+    "kanji": "飲みます",
+    "hiragana": "のみます",
+    "romaji": "nomimasu",
+    "vietnamese": "Uống"
+  },
+  {
+    "kanji": "食べます",
+    "hiragana": "たべます",
+    "romaji": "tabemasu",
+    "vietnamese": "Ăn"
+  },
+  {
+    "kanji": "聞きます",
+    "hiragana": "ききます",
+    "romaji": "kikimasu",
+    "vietnamese": "Nghe"
+  },
+  {
+    "kanji": "新聞",
+    "hiragana": "しんぶん",
+    "romaji": "shinbun",
+    "vietnamese": "Báo"
+  },
+  {
+    "kanji": "書きます",
+    "hiragana": "かきます",
+    "romaji": "kakimasu",
+    "vietnamese": "Viết"
+  },
+  {
+    "kanji": "日帰り",
+    "hiragana": "ひがえり",
+    "romaji": "higaeri",
+    "vietnamese": "Đi về trong ngày"
+  },
+  {
+    "kanji": "帰国",
+    "hiragana": "きこく",
+    "romaji": "kikoku",
+    "vietnamese": "Trở về đất nước của mình"
+  },
+  {
+    "kanji": "帰ります",
+    "hiragana": "かえります",
+    "romaji": "kaerimasu",
+    "vietnamese": "Trở về nhà"
+  },
+  {
+    "kanji": "起きます",
+    "hiragana": "おきます",
+    "romaji": "okimasu",
+    "vietnamese": "Thức dậy"
+  },
+  {
+    "kanji": "弾きます",
+    "hiragana": "ひきます",
+    "romaji": "hikimasu",
+    "vietnamese": "Đánh đàn"
+  },
+  {
+    "kanji": "出します",
+    "hiragana": "だします",
+    "romaji": "dashimasu",
+    "vietnamese": "Lấy ra"
+  },
+  {
+    "kanji": "毎朝",
+    "hiragana": "まいあさ",
+    "romaji": "maiasa",
+    "vietnamese": "Mỗi ngày"
+  },
+  {
+    "kanji": "毎晩",
+    "hiragana": "まいばん",
+    "romaji": "maiban",
+    "vietnamese": "Mỗi đêm"
+  },
+  {
+    "kanji": "飲食",
+    "hiragana": "いんしょく",
+    "romaji": "inshoku",
+    "vietnamese": "Đồ uống và đồ ăn, hành động ăn uống"
+  },
+  {
+    "kanji": "来日",
+    "hiragana": "らいにち",
+    "romaji": "rainichi",
+    "vietnamese": "Đến Nhật Bản (special)"
+  },
+  {
+    "kanji": "見学",
+    "hiragana": "けんがく",
+    "romaji": "kengaku",
+    "vietnamese": "Kiến học"
+  },
+  {
+    "kanji": "見物",
+    "hiragana": "けんぶつ",
+    "romaji": "kenbutsu",
+    "vietnamese": "Tham quan"
+  },
+  {
+    "kanji": "男",
+    "hiragana": "おとこ",
+    "romaji": "otoko",
+    "vietnamese": "Nam giới"
+  },
+  {
+    "kanji": "女",
+    "hiragana": "おんな",
+    "romaji": "onna",
+    "vietnamese": "Nữ giới"
+  },
+  {
+    "kanji": "学校",
+    "hiragana": "がっこう",
+    "romaji": "gakkou",
+    "vietnamese": "Trường học"
+  },
+  {
+    "kanji": "大学",
+    "hiragana": "だいがく",
+    "romaji": "daigaku",
+    "vietnamese": "Trường đại học"
+  },
+  {
+    "kanji": "時間",
+    "hiragana": "じかん",
+    "romaji": "jikan",
+    "vietnamese": "Giờ"
+  },
+  {
+    "kanji": "半",
+    "hiragana": "はん",
+    "romaji": "han",
+    "vietnamese": "Nửa giờ"
+  },
+  {
+    "kanji": "時",
+    "hiragana": "じ",
+    "romaji": "ji",
+    "vietnamese": "Giờ"
+  },
+  {
+    "kanji": "お寺",
+    "hiragana": "おてら",
+    "romaji": "otera",
+    "vietnamese": "Chùa"
+  },
+  {
+    "kanji": "風邪",
+    "hiragana": "かぜ",
+    "romaji": "kaze",
+    "vietnamese": "Gió"
+  },
+  {
+    "kanji": "料理",
+    "hiragana": "りょうり",
+    "romaji": "ryouri",
+    "vietnamese": "Đầu bếp, món ăn"
+  },
+  {
+    "kanji": "明日",
+    "hiragana": "あした",
+    "romaji": "ashita",
+    "vietnamese": "Ngày mai"
+  },
+  {
+    "kanji": "毎日",
+    "hiragana": "まいにち",
+    "romaji": "mainichi",
+    "vietnamese": "Mỗi ngày"
+  },
+  {
+    "kanji": "毎月",
+    "hiragana": "まいつき",
+    "romaji": "maitsuki",
+    "vietnamese": "Mỗi tháng"
+  },
+  {
+    "kanji": "毎週",
+    "hiragana": "まいしゅう",
+    "romaji": "maishuu",
+    "vietnamese": "Mỗi tuần"
+  },
+  {
+    "kanji": "先月",
+    "hiragana": "せんげつ",
+    "romaji": "sengetsu",
+    "vietnamese": "Tháng trước"
+  },
+  {
+    "kanji": "先日",
+    "hiragana": "せんじつ",
+    "romaji": "senjitsu",
+    "vietnamese": "Một vài ngày trước"
+  },
+  {
+    "kanji": "前日",
+    "hiragana": "ぜんじつ",
+    "romaji": "zenjitsu",
+    "vietnamese": "Ngày hôm trước"
+  },
+  {
+    "kanji": "一昨日",
+    "hiragana": "おととい",
+    "romaji": "ototoi",
+    "vietnamese": "Ngày hôm kia (trước ngày hôm qua)"
+  },
+  {
+    "kanji": "昨日",
+    "hiragana": "きのう",
+    "romaji": "kinou",
+    "vietnamese": "Ngày hôm qua"
+  },
+  {
+    "kanji": "今日",
+    "hiragana": "きょう",
+    "romaji": "kyou",
+    "vietnamese": "Ngày hôm nay"
+  },
+  {
+    "kanji": "明後日",
+    "hiragana": "あさって",
+    "romaji": "asatte",
+    "vietnamese": "Ngày kia"
+  },
+  {
+    "kanji": "来月",
+    "hiragana": "らいげつ",
+    "romaji": "raigetsu",
+    "vietnamese": "Tháng sau"
+  },
+  {
+    "kanji": "来年",
+    "hiragana": "らいねん",
+    "romaji": "rainen",
+    "vietnamese": "Năm sau"
+  },
+  {
+    "kanji": "今年",
+    "hiragana": "ことし",
+    "romaji": "kotoshi",
+    "vietnamese": "Năm nay"
+  },
+  {
+    "kanji": "去年",
+    "hiragana": "きょねん",
+    "romaji": "kyonen",
+    "vietnamese": "Năm ngoái"
+  },
+  {
+    "kanji": "先週",
+    "hiragana": "せんしゅう",
+    "romaji": "senshuu",
+    "vietnamese": "Tuần trước"
+  },
+  {
+    "kanji": "週末",
+    "hiragana": "しゅうまつ",
+    "romaji": "shuumatsu",
+    "vietnamese": "Ngày cuối tuần"
+  },
+  {
+    "kanji": "今週",
+    "hiragana": "こんしゅう",
+    "romaji": "konshuu",
+    "vietnamese": "Tuần này"
+  },
+  {
+    "kanji": "来週",
+    "hiragana": "らいしゅう",
+    "romaji": "raishuu",
+    "vietnamese": "Tuần tới"
+  },
+  {
+    "kanji": "午後",
+    "hiragana": "ごご",
+    "romaji": "gogo",
+    "vietnamese": "Buổi chiều"
+  },
+  {
+    "kanji": "午前",
+    "hiragana": "ごぜん",
+    "romaji": "gozen",
+    "vietnamese": "Buổi sáng"
+  },
+  {
+    "kanji": "今晩",
+    "hiragana": "こんばん",
+    "romaji": "konban",
+    "vietnamese": "Tối nay"
+  },
+  {
+    "kanji": "今朝",
+    "hiragana": "けさ",
+    "romaji": "kesa",
+    "vietnamese": "Sáng nay"
+  },
+  {
+    "kanji": "昼",
+    "hiragana": "ひる",
+    "romaji": "hiru",
+    "vietnamese": "Buổi trưa"
+  },
+  {
+    "kanji": "後前",
+    "hiragana": "ぜんご",
+    "romaji": "zengo",
+    "vietnamese": "Trước và Sau"
+  },
+  {
+    "kanji": "市",
+    "hiragana": "し",
+    "romaji": "shi",
+    "vietnamese": "Thành phố"
+  },
+  {
+    "kanji": "町",
+    "hiragana": "まち",
+    "romaji": "machi",
+    "vietnamese": "Thị trấn, thành phố"
+  },
+  {
+    "kanji": "東",
+    "hiragana": "ひがし",
+    "romaji": "higashi",
+    "vietnamese": "Đông"
+  },
+  {
+    "kanji": "西",
+    "hiragana": "にし",
+    "romaji": "nishi",
+    "vietnamese": "Tây"
+  },
+  {
+    "kanji": "南",
+    "hiragana": "みなみ",
+    "romaji": "minami",
+    "vietnamese": "Nam"
+  },
+  {
+    "kanji": "北",
+    "hiragana": "きた",
+    "romaji": "kita",
+    "vietnamese": "Bắc"
+  },
+  {
+    "kanji": "区",
+    "hiragana": "く",
+    "romaji": "ku",
+    "vietnamese": "Quận"
+  },
+  {
+    "kanji": "名前",
+    "hiragana": "なまえ",
+    "romaji": "namae",
+    "vietnamese": "Tên"
+  },
+  {
+    "kanji": "東京",
+    "hiragana": "とうきょう",
+    "romaji": "toukyou",
+    "vietnamese": "Tokyo"
+  },
+  {
+    "kanji": "京都",
+    "hiragana": "きょうと",
+    "romaji": "kyoutou",
+    "vietnamese": "Kyoto"
+  },
+  {
+    "kanji": "食べ物",
+    "hiragana": "たべもの",
+    "romaji": "tabemono",
+    "vietnamese": "Đồ ăn"
+  },
+  {
+    "kanji": "高い",
+    "hiragana": "たかい",
+    "romaji": "takai",
+    "vietnamese": "Đắt hoặc cao"
+  },
+  {
+    "kanji": "古い",
+    "hiragana": "ふるい",
+    "romaji": "furui",
+    "vietnamese": "Cổ"
+  },
+  {
+    "kanji": "新しい",
+    "hiragana": "あたらしい",
+    "romaji": "atarashii",
+    "vietnamese": "Mới"
+  },
+  {
+    "kanji": "低い",
+    "hiragana": "ひくい",
+    "romaji": "hikui",
+    "vietnamese": "Thấp"
+  },
+  {
+    "kanji": "大きい",
+    "hiragana": "おおきい",
+    "romaji": "ookii",
+    "vietnamese": "Lớn"
+  },
+  {
+    "kanji": "小さい",
+    "hiragana": "ちいさい",
+    "romaji": "chiisai",
+    "vietnamese": "Nhỏ"
+  },
+  {
+    "kanji": "安い",
+    "hiragana": "やすい",
+    "romaji": "yasui",
+    "vietnamese": "Rẻ"
+  },
+  {
+    "kanji": "枚",
+    "hiragana": "まい",
+    "romaji": "mai",
+    "vietnamese": "Đếm vật mỏng, phẳng (vé, lá, tờ giấy,...)"
+  },
+  {
+    "kanji": "半年",
+    "hiragana": "はんとし",
+    "romaji": "hantoshi",
+    "vietnamese": "Nửa năm"
+  },
+  {
+    "kanji": "国会",
+    "hiragana": "こっかい",
+    "romaji": "kokkai",
+    "vietnamese": "Quốc Hội"
+  },
+  {
+    "kanji": "会社",
+    "hiragana": "かいしゃ",
+    "romaji": "kaisha",
+    "vietnamese": "Công ty"
+  },
+  {
+    "kanji": "会議",
+    "hiragana": "かいぎ",
+    "romaji": "kaigi",
+    "vietnamese": "Hội nghị"
+  },
+  {
+    "kanji": "会見",
+    "hiragana": "かいけん",
+    "romaji": "kaiken",
+    "vietnamese": "Gặp gỡ"
+  },
+  {
+    "kanji": "歌手",
+    "hiragana": "かしゅ",
+    "romaji": "kashu",
+    "vietnamese": "Ca sĩ"
+  },
+  {
+    "kanji": "肉",
+    "hiragana": "にく",
+    "romaji": "niku",
+    "vietnamese": "Thịt"
+  },
+  {
+    "kanji": "有名",
+    "hiragana": "ゆうめい",
+    "romaji": "yuumei",
+    "vietnamese": "Nổi tiếng"
+  },
+  {
+    "kanji": "休日",
+    "hiragana": "きゅうじつ",
+    "romaji": "kyuujitsu",
+    "vietnamese": "Ngày nghỉ"
+  },
+  {
+    "kanji": "荷物",
+    "hiragana": "にもつ",
+    "romaji": "nimotsu",
+    "vietnamese": "Hành lí"
+  },
+  {
+    "kanji": "食事",
+    "hiragana": "しょくじ",
+    "romaji": "shokuji",
+    "vietnamese": "Bữa ăn"
+  },
+  {
+    "kanji": "旅行",
+    "hiragana": "りょこう",
+    "romaji": "ryokou",
+    "vietnamese": "Chuyến đi"
+  },
+  {
+    "kanji": "国語",
+    "hiragana": "こくご",
+    "romaji": "kokugo",
+    "vietnamese": "Quốc ngữ"
+  },
+  {
+    "kanji": "読み物",
+    "hiragana": "よみもの",
+    "romaji": "yomimono",
+    "vietnamese": "Tài liệu đọc"
+  },
+  {
+    "kanji": "読書",
+    "hiragana": "どくしょ",
+    "romaji": "dokusho",
+    "vietnamese": "Việc đọc sách"
+  },
+  {
+    "kanji": "男女",
+    "hiragana": "だんじょ",
+    "romaji": "danjo",
+    "vietnamese": "Nam nữ"
+  },
+  {
+    "kanji": "名人",
+    "hiragana": "めいじん",
+    "romaji": "meijin",
+    "vietnamese": "Người nổi tiếng"
+  },
+  {
+    "kanji": "料金",
+    "hiragana": "りょうきん",
+    "romaji": "ryoukin",
+    "vietnamese": "Chi phí"
+  },
+  {
+    "kanji": "小学校",
+    "hiragana": "しょうがっこう",
+    "romaji": "shougakkou",
+    "vietnamese": "Trường tiểu học"
+  },
+  {
+    "kanji": "小人",
+    "hiragana": "こびと",
+    "romaji": "kobito",
+    "vietnamese": "Đứa trẻ"
+  },
+  {
+    "kanji": "大人",
+    "hiragana": "おとな",
+    "romaji": "otona",
+    "vietnamese": "Người lớn"
+  },
+  {
+    "kanji": "大会",
+    "hiragana": "たいかい",
+    "romaji": "taikai",
+    "vietnamese": "Hội nghị / Giải đấu"
+  },
+  {
+    "kanji": "言語",
+    "hiragana": "げんご",
+    "romaji": "gengo",
+    "vietnamese": "Ngôn ngữ"
+  },
+  {
+    "kanji": "野菜",
+    "hiragana": "やさい",
+    "romaji": "yasai",
+    "vietnamese": "Rau củ"
+  },
+  {
+    "kanji": "門",
+    "hiragana": "もん",
+    "romaji": "mon",
+    "vietnamese": "Cổng"
+  },
+  {
+    "kanji": "半ば",
+    "hiragana": "なかば",
+    "romaji": "nakaba",
+    "vietnamese": "Giữa"
+  },
+  {
+    "kanji": "人物",
+    "hiragana": "じんぶつ",
+    "romaji": "jinbutsu",
+    "vietnamese": "Người"
+  },
+  {
+    "kanji": "友達",
+    "hiragana": "ともだち",
+    "romaji": "tomodachi",
+    "vietnamese": "Bạn bè"
+  },
+  {
+    "kanji": "家",
+    "hiragana": "いえ",
+    "romaji": "ie",
+    "vietnamese": "Nhà"
+  },
+  {
+    "kanji": "天気",
+    "hiragana": "てんき",
+    "romaji": "tenki",
+    "vietnamese": "Thời tiết"
+  },
+  {
+    "kanji": "山",
+    "hiragana": "やま",
+    "romaji": "yama",
+    "vietnamese": "Núi"
+  },
+  {
+    "kanji": "田",
+    "hiragana": "た",
+    "romaji": "ta",
+    "vietnamese": "Ruộng"
+  },
+  {
+    "kanji": "中",
+    "hiragana": "なか",
+    "romaji": "naka",
+    "vietnamese": "Ở giữa, trung tâm"
+  },
+  {
+    "kanji": "川",
+    "hiragana": "かわ",
+    "romaji": "kawa",
+    "vietnamese": "Sông"
+  },
+  {
+    "kanji": "雨",
+    "hiragana": "あめ",
+    "romaji": "ame",
+    "vietnamese": "Mưa"
+  },
+  {
+    "kanji": "先",
+    "hiragana": "さき",
+    "romaji": "sakki",
+    "vietnamese": "Cách đây không lâu, ngay bây giờ"
+  },
+  {
+    "kanji": "冷たい",
+    "hiragana": "つめたい",
+    "romaji": "tsumetai",
+    "vietnamese": "lạnh (dùng cho đồ vật, đồ uống, cảm giác, thái độ lạnh lùng)"
+  },
+  {
+    "kanji": "飛行機",
+    "hiragana": "ひこうき",
+    "romaji": "hikooki",
+    "vietnamese": "máy bay"
+  },
+  {
+    "kanji": "寒い",
+    "hiragana": "さむい",
+    "romaji": "samui",
+    "vietnamese": "lạnh (dùng cho thời tiết, khí hậu)"
+  },
+  {
+    "kanji": "毎年",
+    "hiragana": "まいとし",
+    "romaji": "maitoshi",
+    "vietnamese": "hàng năm, mỗi năm"
+  },
+  {
+    "kanji": "暑い / 熱い",
+    "hiragana": "あつい",
+    "romaji": "atsui",
+    "vietnamese": "nóng"
+  },
+  {
+    "kanji": "多い",
+    "hiragana": "おおい",
+    "romaji": "ooi",
+    "vietnamese": "nhiều"
+  },
+  {
+    "kanji": "酸っぱい",
+    "hiragana": "すっぱい",
+    "romaji": "suppai",
+    "vietnamese": "chua (vị)"
+  },
+  {
+    "kanji": "暇",
+    "hiragana": "ひま",
+    "romaji": "hima",
+    "vietnamese": "rảnh rỗi, thời gian rảnh"
+  },
+  {
+    "kanji": "辛い",
+    "hiragana": "からい",
+    "romaji": "karai",
+    "vietnamese": "cay"
+  },
+  {
+    "kanji": "美術館",
+    "hiragana": "びじゅつかん",
+    "romaji": "bijutsukan",
+    "vietnamese": "viện bảo tàng mỹ thuật"
+  },
+  {
+    "kanji": "電車",
+    "hiragana": "でんしゃ",
+    "romaji": "densha",
+    "vietnamese": "tàu điện, xe lửa (chạy bằng điện)"
+  },
+  {
+    "kanji": "忙しい",
+    "hiragana": "いそがしい",
+    "romaji": "isogashi",
+    "vietnamese": "bận rộn"
+  },
+  {
+    "kanji": "賑やか",
+    "hiragana": "にぎやか",
+    "romaji": "nigiyaka",
+    "vietnamese": "náo nhiệt, sôi động, đông vui"
+  },
+  {
+    "kanji": "甘い",
+    "hiragana": "あまい",
+    "romaji": "amai",
+    "vietnamese": "ngọt"
+  },
+  {
+    "kanji": "所",
+    "hiragana": "ところ",
+    "romaji": "tokoro",
+    "vietnamese": "nơi, chỗ, địa điểm"
+  },
+  {
+    "kanji": "見学します",
+    "hiragana": "けんがくします",
+    "romaji": "kengaku shimasu",
+    "vietnamese": "tham quan để học hỏi, đi thực tế"
+  },
+  {
+    "kanji": "美味しい",
+    "hiragana": "おいしい",
+    "romaji": "oishii",
+    "vietnamese": "ngon"
+  },
+  {
+    "kanji": "どうして",
+    "hiragana": "どうして",
+    "romaji": "doushite",
+    "vietnamese": "tại sao"
+  },
+  {
+    "kanji": "面白い",
+    "hiragana": "おもしろい",
+    "romaji": "omoshiroi",
+    "vietnamese": "thú vị, hấp dẫn"
+  },
+  {
+    "kanji": "難しい",
+    "hiragana": "むずかしい",
+    "romaji": "muzukashii",
+    "vietnamese": "khó, khó khăn"
+  },
+  {
+    "kanji": "景色",
+    "hiragana": "けしき",
+    "romaji": "keshiki",
+    "vietnamese": "phong cảnh"
+  },
+  {
+    "kanji": "買い物します",
+    "hiragana": "かいものします",
+    "romaji": "kaimono shimasu",
+    "vietnamese": "đi mua sắm"
+  }
+]
