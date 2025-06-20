@@ -37,9 +37,14 @@ export default function DevPageContainer() {
     setVocabularies([...getVocabularies()]);
   };
 
+  useEffect(() => {
+    if (!isAdmin) {
+      // Chặn, chuyển hướng về trang chủ (client-side)
+      router.replace("/");
+    }
+  }, [isAdmin, router]);
+
   if (!isAdmin) {
-    // Chặn, chuyển hướng về trang chủ (client-side)
-    router.replace("/");
     return <h1>Bạn không có quyền truy cập trang này.</h1>;
   }
 
