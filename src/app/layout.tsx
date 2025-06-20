@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <div className="main-content layout-content-wrapper mx-auto">
+        <div className="main-content mx-auto">
           {children}
         </div>
         <Script
