@@ -40,7 +40,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 className={`nav-link ${pathname === "/dev" ? "active" : ""}`}
                 href="/dev"
@@ -48,7 +48,7 @@ export default function Navbar() {
                 <i className="bi bi-gear me-1"></i>
                 Dev Page
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -9,8 +9,11 @@ import {
 } from "@/services/vocabularyService";
 import type { JapaneseVocabulary } from "@/types";
 import { useState, useEffect } from "react";
-
+import { useRouter } from "next/navigation";
 export default function DevPageContainer() {
+  // Chặn truy cập nếu không phải admin
+  const isAdmin = false; // Đổi true để truy cập, false để block
+  const router = useRouter();
   const { allVocabularies } = useVocabularySearch();
   const [vocabularies, setVocabularies] =
     useState<JapaneseVocabulary[]>(allVocabularies);
@@ -33,6 +36,17 @@ export default function DevPageContainer() {
     removeVocabulary(index);
     setVocabularies([...getVocabularies()]);
   };
+
+  useEffect(() => {
+    if (!isAdmin) {
+      // Chặn, chuyển hướng về trang chủ (client-side)
+      router.replace("/");
+    }
+  }, [isAdmin, router]);
+
+  if (!isAdmin) {
+    return <h1>Bạn không có quyền truy cập trang này.</h1>;
+  }
 
   return (
     <DevPage
