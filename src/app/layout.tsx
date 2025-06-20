@@ -1,7 +1,8 @@
 // import { Geist, Geist_Mono } from "next/font/google";
 import type { Metadata } from "next";
 import "@/styles/globals.css";
-import "bootstrap/dist/css/bootstrap.min.css"; // 👈 Import Bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "@/components/Navbar";
 import Script from "next/script";
 
@@ -19,13 +20,13 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <div
-          className="layout-content-wrapper mx-auto"
-          style={{ maxWidth: "70%" }}
-        >
+        <div className="main-content mx-auto">
           {children}
         </div>
-        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" />
+        <Script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
