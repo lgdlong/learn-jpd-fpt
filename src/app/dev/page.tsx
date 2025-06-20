@@ -9,11 +9,11 @@ import {
 } from "@/services/vocabularyService";
 import type { JapaneseVocabulary } from "@/types";
 import { useState, useEffect } from "react";
-
+import { useRouter } from "next/navigation";
 export default function DevPageContainer() {
   // Chặn truy cập nếu không phải admin
   const isAdmin = false; // Đổi true để truy cập, false để block
-
+  const router = useRouter();
   const { allVocabularies } = useVocabularySearch();
   const [vocabularies, setVocabularies] =
     useState<JapaneseVocabulary[]>(allVocabularies);
