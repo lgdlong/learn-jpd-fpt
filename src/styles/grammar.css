@@ -269,17 +269,6 @@ tr:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Thêm hiệu ứng gradient cho header */
-header {
-  background: var(--gradient-bg);
-  color: white;
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  transition: all 0.3s ease;
-}
-
 /* Thêm hiệu ứng cho các nút */
 .btn {
   transition: all 0.3s ease;
