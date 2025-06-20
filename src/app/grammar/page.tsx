@@ -1064,7 +1064,7 @@ export default function GrammarPage() {
                 <p>Dùng để yêu cầu hoặc đề nghị ai đó làm gì.</p>
                 <div className="example">
                   <p>
-                    <strong>Ví dụ:</strong> 本を読んてください。
+                    <strong>Ví dụ:</strong> 本を読んでください。
                   </p>
                   <p>
                     <em>Nghĩa:</em> Xin hãy đọc sách.
