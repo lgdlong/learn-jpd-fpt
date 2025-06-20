@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Japanese Vocabulary App
+
+This project is a simple vocabulary learning tool built with [Next.js](https://nextjs.org/) and TypeScript. It lets you browse and search a list of Japanese words and provides a small administration interface for adding or editing entries.
+
+## Features
+
+- Search vocabulary by **romaji**, **hiragana** or **Vietnamese** meaning
+- Responsive interface styled with [Bootstrap 5](https://getbootstrap.com/)
+- Dataset stored locally in `src/data/vocabularies.json` and persisted in the browser using `localStorage`
+- Optional development page for managing vocabulary entries
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and launch the development server:
 
 ```bash
-npm run dev
-# or
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000> in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The latest version is deployed at <https://learn-jpd-fpt.vercel.app>.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available Scripts
 
-## Learn More
+- `yarn dev` – start the Next.js development server
+- `yarn build` – build the production version
+- `yarn start` – start the production server after a build
+- `yarn lint` – run ESLint checks
 
-To learn more about Next.js, take a look at the following resources:
+## Development Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+There is an admin page located at `/dev` that allows you to add, edit and remove vocabulary items. Access is controlled by a flag inside `src/app/dev/page.tsx`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```ts
+const isAdmin = false; // change to true to enable access
+```
 
-## Deploy on Vercel
+Set this value to `true` during local development if you need to modify the vocabulary list.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Data Format
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Each vocabulary entry follows this interface:
+
+```ts
+interface JapaneseVocabulary {
+  kanji: string;
+  hiragana: string;
+  romaji: string;
+  vietnamese: string;
+}
+```
+
+The starter dataset contains several hundred entries in `src/data/vocabularies.json`.
+
+## License
+
+This project is provided for learning purposes and does not include a specific license.
