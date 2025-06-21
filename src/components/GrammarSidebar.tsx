@@ -118,9 +118,7 @@ export default function GrammarSidebar() {
             className={`fas ${
               isMobileMenuOpen ? "fa-chevron-up" : "fa-chevron-down"
             }`}
-          >
-            {isMobileMenuOpen ? "▲" : "▼"}
-          </i>
+          />
         </div>
       </aside>
     </>
