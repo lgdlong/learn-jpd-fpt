@@ -36,8 +36,18 @@ export default function GrammarSidebar() {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setActiveSection(id);
+      try {
+        element.scrollIntoView({ behavior: "smooth" });
+        setActiveSection(id);
+      } catch (error) {
+        // Fallback to instant scroll if smooth scrolling fails
+        console.error(
+          "Smooth scroll failed, falling back to instant scroll:",
+          error
+        );
+        element.scrollIntoView();
+        setActiveSection(id);
+      }
       // Close mobile menu after clicking
       setIsMobileMenuOpen(false);
     }

@@ -9,7 +9,7 @@ h1 {
   position: sticky;
   top: 64px;
   align-self: flex-start;
-  height: 100vh;
+  height: calc(100vh - 64px);
   overflow-y: auto;
   width: 300px;
   padding: 20px 0;
