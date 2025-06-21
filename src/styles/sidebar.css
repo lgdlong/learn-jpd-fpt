@@ -6,6 +6,11 @@ h1 {
 }
 
 .grammar-sidebar {
+  position: sticky;
+  top: 64px;
+  align-self: flex-start;
+  height: 100vh;
+  overflow-y: auto;
   width: 300px;
   padding: 20px 0;
   background-color: white;
