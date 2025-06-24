@@ -4,7 +4,6 @@
 import GrammarContent from "@/components/GrammarContent";
 import GrammarSidebar from "@/components/GrammarSidebar";
 import "@/styles/grammar.css";
-import "@/styles/sidebar.css";
 export default function GrammarPage() {
   return (
     <div className="grammar-layout">

@@ -1,0 +1,55 @@
+/* Navbar Styling */
+.navbar.sticky-top {
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 1030;
+}
+
+.navbar {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Logo Animation (nếu có logo image trong navbar) */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) img {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Hover Effects cho logo trong Navbar */
+a img {
+  transition: transform 0.3s ease;
+}
+a:hover img {
+  transform: scale(1.1);
+}
+
+/* Dark Background Utility */
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar.sticky-top {
+    z-index: 2000; /* Đảm bảo cao hơn các thành phần khác như .search-container */
+  }
+  .navbar {
+    margin-bottom: 0 !important;
+  }
+}

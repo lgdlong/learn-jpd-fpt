@@ -1,5 +1,7 @@
 import React from "react";
 
+import "@/styles/grammar-content.css";
+
 export default function GrammarContent() {
   return (
     <>
@@ -9,7 +11,7 @@ export default function GrammarContent() {
       >
         <h2 className="text-center mb-4">Bài 4: Chia tính từ い và な</h2>
         <div className="grammar-point">
-          <h3 className="section-title">I. Chia tính từ い và な</h3>
+          <h3>I. Chia tính từ い và な</h3>
           <table className="table table-bordered table-hover mt-4">
             <thead className="thead-light">
               <tr>
@@ -82,44 +84,44 @@ export default function GrammarContent() {
             </div>
             <div className="example-sentence mt-3">
               <h5>
-                <strong>
-                  さむい (lạnh - tính từ い) và しずか (yên tĩnh - tính từ な):
-                </strong>
+                さむい (lạnh - tính từ) い và しずか (yên tĩnh - tính từ) な:
               </h5>
               <p>
                 <strong>Hiện tại khẳng định:</strong>
               </p>
-              <p className="japanese-sentence">
-                きょう は さむいです。そして、しずかです。
-              </p>
-              <p className="romaji">
-                Kyou wa samui desu. Soshite, shizuka desu.
-              </p>
-              <p className="translation">
-                <em>Hôm nay trời lạnh và yên tĩnh.</em>
-              </p>
+              <div className="example">
+                <p className="japanese-sentence">
+                  きょう は さむいです。そして、しずかです。
+                </p>
+                <p className="romaji">
+                  Kyou wa samui desu. Soshite, shizuka desu.
+                </p>
+                <p className="translation">
+                  <em>Hôm nay trời lạnh và yên tĩnh.</em>
+                </p>
+              </div>
               <p>
                 <strong>Phủ định quá khứ:</strong>
               </p>
-              <p className="japanese-sentence">
-                きのう は
-                さむくなかったです。そして、しずかじゃありませんでした。
-              </p>
-              <p className="romaji">
-                Kinou wa samukunakatta desu. Soshite, shizuka ja arimasen
-                deshita.
-              </p>
-              <p className="translation">
-                <em>Hôm qua trời đã không lạnh và cũng không yên tĩnh.</em>
-              </p>
+              <div className="example">
+                <p className="japanese-sentence">
+                  きのう は
+                  さむくなかったです。そして、しずかじゃありませんでした。
+                </p>
+                <p className="romaji">
+                  Kinou wa samukunakatta desu. Soshite, shizuka ja arimasen
+                  deshita.
+                </p>
+                <p className="translation">
+                  <em>Hôm qua trời đã không lạnh và cũng không yên tĩnh.</em>
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <div className="grammar-point mt-5">
-          <h3 className="section-title">
-            II. Tính từ bổ nghĩa cho Danh từ và Động từ
-          </h3>
+          <h3>II. Tính từ bổ nghĩa cho Danh từ và Động từ</h3>
           <div className="sub-section">
             <h4>1. Tính từ bổ nghĩa cho Danh từ</h4>
             <table className="table table-bordered">
@@ -171,7 +173,7 @@ export default function GrammarContent() {
         </div>
 
         <div className="grammar-point mt-5">
-          <h3 className="section-title">III. Các từ chỉ mức độ</h3>
+          <h3>III. Các từ chỉ mức độ</h3>
           <table className="table table-bordered">
             <thead className="thead-light">
               <tr>
@@ -211,7 +213,7 @@ export default function GrammarContent() {
         </div>
 
         <div className="grammar-point mt-5">
-          <h3 className="section-title">IV. Liên từ</h3>
+          <h3>IV. Liên từ</h3>
           <table className="table table-bordered">
             <thead className="thead-light">
               <tr>
@@ -266,7 +268,7 @@ export default function GrammarContent() {
         </div>
 
         <div className="grammar-point mt-5">
-          <h3 className="section-title">V. Một số mẫu câu khác</h3>
+          <h3>V. Một số mẫu câu khác</h3>
           <ul className="example-list">
             <li>
               <strong>Nơi chốn + に + Sự vật/Sự việc + があります:</strong> Tại
@@ -445,9 +447,9 @@ export default function GrammarContent() {
               <li>
                 <u>としょかん</u>
                 <span className="blue-text">へ</span> <u>ほんを よみ</u>
-                <span style={{ color: "red" }}>に</span>
-                <span style={{ color: "green" }}>いきます</span>。(Tôi đi đến
-                thư viện để đọc sách.)
+                <span className="red-text">に</span>
+                <span className="green-text">いきます</span>。(Tôi đi đến thư
+                viện để đọc sách.)
               </li>
             </ul>
           </div>
@@ -456,7 +458,7 @@ export default function GrammarContent() {
             <ul>
               <li>
                 Nếu trước trợ từ &quot;
-                <span style={{ color: "red" }}>に</span>
+                <span>に</span>
                 &quot; là một sự kiện, thì cả câu có thể hiểu là &quot;đi đến A
                 để tham gia/xem sự kiện đó&quot;.
               </li>
@@ -465,27 +467,24 @@ export default function GrammarContent() {
                 ー(を)しに chỉ giữ lại phần danh từ. Ví dụ:
                 <ul>
                   <li>
-                    <span style={{ color: "red" }}>かいもの</span>に
-                    いきます。(Đi mua sắm) - Thay vì{" "}
-                    <span style={{ color: "red" }}>かいものをし</span>に
-                    いきます。
+                    <span>かいもの</span>に いきます。(Đi mua sắm) - Thay vì{" "}
+                    <span>かいものをし</span>に いきます。
                   </li>
                   <li>
-                    <span style={{ color: "red" }}>さんぽ</span>に いきます。(Đi
-                    dạo) - Thay vì{" "}
-                    <span style={{ color: "red" }}>さんぽをし</span>に
-                    いきます。
+                    <span className="red-text">さんぽ</span>に いきます。(Đi
+                    dạo) - Thay vì <span className="red-text">さんぽをし</span>
+                    に いきます。
                   </li>
                   <li>
-                    <span style={{ color: "red" }}>べんきょう</span>に
-                    としょかんへ いきます。(Đi học tại thư viện) - Thay vì
-                    <span style={{ color: "red" }}>べんきょうをし</span>に
+                    <span className="red-text">べんきょう</span>に としょかんへ
+                    いきます。(Đi học tại thư viện) - Thay vì
+                    <span className="red-text">べんきょうをし</span>に
                     としょかんへ いきます。
                   </li>
                   <li>
-                    <span style={{ color: "red" }}>しょくじ</span>に
-                    レストランへ いきます。(Đi ăn tại nhà hàng) - Thay vì
-                    <span style={{ color: "red" }}>しょくじをし</span>に
+                    <span className="red-text">しょくじ</span>に レストランへ
+                    いきます。(Đi ăn tại nhà hàng) - Thay vì
+                    <span className="red-text">しょくじをし</span>に
                     レストランへ いきます。
                   </li>
                 </ul>
