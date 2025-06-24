@@ -1,17 +1,33 @@
 "use client";
 
+import "@/styles/nav.css";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const pathname = usePathname();
 
+  function closeNavbar() {
+    const nav = document.getElementById("navbarNav");
+    // Kiểm tra kiểu an toàn, không dùng any
+    if (
+      nav &&
+      nav.classList.contains("show") &&
+      window.bootstrap &&
+      window.bootstrap.Collapse
+    ) {
+      const collapse = new window.bootstrap.Collapse(nav, { toggle: false });
+      collapse.hide();
+    }
+  }
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4 sticky-top w-100">
       <div className="container-fluid justify-content-between">
         <Link className="navbar-brand d-flex align-items-center" href="/">
           <i className="bi bi-book me-2"></i>
-          Japanese Vocabulary
+          Learning JPD123
         </Link>
 
         <button
@@ -35,6 +51,7 @@ export default function Navbar() {
               <Link
                 className={`nav-link ${pathname === "/" ? "active" : ""}`}
                 href="/"
+                onClick={closeNavbar}
               >
                 Home
               </Link>
@@ -46,6 +63,7 @@ export default function Navbar() {
                   pathname === "/grammar" ? "active" : ""
                 }`}
                 href="/grammar"
+                onClick={closeNavbar}
               >
                 Grammar
               </Link>
