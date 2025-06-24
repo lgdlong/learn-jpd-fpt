@@ -84,10 +84,6 @@ thead th {
   width: 100%;
 }
 
-.search-box {
-  display: flex;
-  justify-content: flex-end;
-}
 
 /* Count Badge */
 .total-count .badge {
@@ -143,6 +139,8 @@ a:hover img {
   .search-box {
     justify-content: center;
     margin-top: 1rem;
+    padding: 0 0.5rem;
+    width: 100%;
   }
 
   .hiragana-text {
@@ -197,6 +195,9 @@ a:hover img {
 
 /* Enhanced search box styling */
 .search-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
   border: 1px solid #ced4da;
   border-radius: 2rem;
   background-color: #fff;
@@ -209,6 +210,11 @@ a:hover img {
 .search-box .btn {
   background-color: transparent;
   box-shadow: none !important;
+  flex-shrink: 0;
+}
+
+.search-box .form-control {
+  flex: 1 1 auto;
 }
 
 .search-box .form-control:focus {
