@@ -21,7 +21,7 @@ export default function GrammarSidebar() {
 
   // Intersection Observer to track visible sections
   useEffect(() => {
-    const observer = new window.IntersectionObserver(
+    const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
