@@ -10,13 +10,7 @@ export default function Navbar() {
 
   function closeNavbar() {
     const nav = document.getElementById("navbarNav");
-    // Kiểm tra kiểu an toàn, không dùng any
-    if (
-      nav &&
-      nav.classList.contains("show") &&
-      window.bootstrap &&
-      window.bootstrap.Collapse
-    ) {
+    if (nav?.classList.contains("show") && window.bootstrap?.Collapse) {
       const collapse = new window.bootstrap.Collapse(nav, { toggle: false });
       collapse.hide();
     }
