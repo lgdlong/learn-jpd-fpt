@@ -471,20 +471,20 @@ export default function GrammarContent() {
                     <span>かいものをし</span>に いきます。
                   </li>
                   <li>
-                    <span className="text-red">さんぽ</span>に いきます。(Đi
-                    dạo) - Thay vì <span className="text-red">さんぽをし</span>
+                    <span className="red-text">さんぽ</span>に いきます。(Đi
+                    dạo) - Thay vì <span className="red-text">さんぽをし</span>
                     に いきます。
                   </li>
                   <li>
-                    <span className="text-red">べんきょう</span>に としょかんへ
+                    <span className="red-text">べんきょう</span>に としょかんへ
                     いきます。(Đi học tại thư viện) - Thay vì
-                    <span className="text-red">べんきょうをし</span>に
+                    <span className="red-text">べんきょうをし</span>に
                     としょかんへ いきます。
                   </li>
                   <li>
-                    <span className="text-red">しょくじ</span>に レストランへ
+                    <span className="red-text">しょくじ</span>に レストランへ
                     いきます。(Đi ăn tại nhà hàng) - Thay vì
-                    <span className="text-red">しょくじをし</span>に
+                    <span className="red-text">しょくじをし</span>に
                     レストランへ いきます。
                   </li>
                 </ul>
