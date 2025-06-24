@@ -37,20 +37,20 @@ export default function SearchBox({
   };
 
   return (
-    <div className="input-group">
-      <div className="input-group-text bg-white border-end-0">
+    <div className="input-group search-box w-100">
+      <div className="input-group-text bg-white border-0">
         <i className="bi bi-search"></i>
       </div>
       <input
         type="text"
-        className="form-control border-start-0 border-end-0"
+        className="form-control border-0"
         placeholder={`Search by ${searchType}...`}
         value={query}
         onChange={handleQueryChange}
       />
       <button
         id="search-type-btn"
-        className="btn btn-outline-secondary dropdown-toggle border-start-0"
+        className="btn btn-outline-secondary dropdown-toggle border-0"
         type="button"
         data-bs-toggle="dropdown"
         aria-expanded="false"

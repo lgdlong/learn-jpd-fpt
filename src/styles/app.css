@@ -194,3 +194,24 @@ a:hover img {
     word-break: break-word; /* Dòng này giúp tự động xuống dòng nếu từ quá dài */
   }
 }
+
+/* Enhanced search box styling */
+.search-box {
+  border: 1px solid #ced4da;
+  border-radius: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.search-box .form-control,
+.search-box .input-group-text,
+.search-box .btn {
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.search-box .form-control:focus {
+  box-shadow: none;
+}
+
