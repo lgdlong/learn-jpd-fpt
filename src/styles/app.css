@@ -208,7 +208,7 @@ a:hover img {
     border-radius: 0;
     background-color: #fff;
   }
-  .dropdown-menu {
+  .search-box .dropdown-menu {
     position: absolute !important;
     left: 0 !important;
     right: 0 !important;

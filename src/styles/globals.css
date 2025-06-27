@@ -53,6 +53,10 @@ button {
 button:hover {
   border-color: #646cff;
 }
+button:focus {
+  outline: 2px solid #646cff;
+  outline-offset: 2px;
+}
 
 .main-content {
   max-width: 70%;

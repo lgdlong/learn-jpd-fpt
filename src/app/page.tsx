@@ -21,7 +21,7 @@ export default function HomePage() {
         {/* Search Box for Desktop */}
         <div className="search-container mb-4">
           <div className="card shadow-sm rounded-3 border">
-            <div className="abc card-body">
+            <div className="card-body">
               <div className="row align-items-center">
                 <div className="col-md-4">
                   <div className="total-count mb-2 mb-md-0">
