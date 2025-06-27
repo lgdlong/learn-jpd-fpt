@@ -18,6 +18,7 @@ export default function HomePage() {
   return (
     <>
       <div className="main-content mx-auto">
+        {/* Search Box for Desktop */}
         <div className="search-container mb-4">
           <div className="card shadow-sm rounded-3 border">
             <div className="card-body">
@@ -42,6 +43,15 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Search Box for Mobile */}
+        <div className="search-container-mb mb-4 d-block d-md-none">
+          <SearchBox
+            searchFilters={searchFilters}
+            onSearch={handleSearch}
+            onClear={clearFilters}
+          />
         </div>
 
         <VocabularyList vocabularies={searchResults} isLoading={isLoading} />

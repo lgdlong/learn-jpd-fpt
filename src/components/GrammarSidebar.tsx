@@ -7,6 +7,10 @@ export default function GrammarSidebar() {
   const [activeSection, setActiveSection] = useState("");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const MOBILE_OFFSET = 120; // px, khoảng cách trên mobile
+  const PC_OFFSET = 0; // px, không cần offset trên desktop
+  const MOBILE_BREAKPOINT = 768; // px, breakpoint cho mobile
+
   // Lock body scroll when overlay menu open
   useEffect(() => {
     if (isMobileMenuOpen) {
@@ -46,13 +50,26 @@ export default function GrammarSidebar() {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      try {
-        element.scrollIntoView({ behavior: "smooth" });
-        setActiveSection(id);
-      } catch {
-        element.scrollIntoView();
-        setActiveSection(id);
+      const isMobile = window.innerWidth <= MOBILE_BREAKPOINT;
+      const offset = isMobile ? MOBILE_OFFSET : PC_OFFSET;
+
+      if (isMobile) {
+        // Mobile: scroll with offset
+        const rect = element.getBoundingClientRect();
+        const scrollTop = window.pageYOffset + rect.top - offset;
+        window.scrollTo({
+          top: scrollTop,
+          behavior: "smooth",
+        });
+      } else {
+        // Desktop: normal scrollIntoView
+        try {
+          element.scrollIntoView({ behavior: "smooth" });
+        } catch {
+          element.scrollIntoView();
+        }
       }
+      setActiveSection(id);
       setIsMobileMenuOpen(false);
     }
   };

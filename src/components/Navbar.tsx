@@ -19,7 +19,11 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4 sticky-top w-100">
       <div className="container-fluid justify-content-between">
-        <Link className="navbar-brand d-flex align-items-center" href="/">
+        <Link
+          className="navbar-brand d-flex align-items-center"
+          href="/"
+          onClick={closeNavbar}
+        >
           <i className="bi bi-book me-2"></i>
           Learning JPD123
         </Link>
@@ -47,7 +51,7 @@ export default function Navbar() {
                 href="/"
                 onClick={closeNavbar}
               >
-                Home
+                Trang chủ
               </Link>
             </li>
 
@@ -59,7 +63,7 @@ export default function Navbar() {
                 href="/grammar"
                 onClick={closeNavbar}
               >
-                Grammar
+                Ngữ pháp
               </Link>
             </li>
 

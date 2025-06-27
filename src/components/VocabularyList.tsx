@@ -28,7 +28,7 @@ export default function VocabularyList({
       <div className="vocabulary-table-container">
         <div className="alert alert-info text-center py-4" role="alert">
           <i className="bi bi-search me-2"></i>
-          No vocabulary terms found matching your search criteria.
+          Không tìm thấy từ vựng phù hợp với tiêu chí tìm kiếm của bạn.
         </div>
       </div>
     );
@@ -42,7 +42,7 @@ export default function VocabularyList({
               <th>Kanji</th>
               <th>Hiragana</th>
               <th>Romaji</th>
-              <th>Vietnamese</th>
+              <th>Tiếng Việt</th>
             </tr>
           </thead>
           <tbody>

@@ -51,19 +51,23 @@
     display: none;
   }
   .sidebar-toggle {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    z-index: 1010;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding: 12px 16px;
     border-bottom: 1px solid #e0e0e0;
-    cursor: pointer;
+    background: #fff;
     font-weight: 600;
     -webkit-user-select: none;
     user-select: none;
-    z-index: 20;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
   }
-
   /* Overlay toàn màn hình khi mở mục lục */
   .sidebar-mobile-overlay {
     position: fixed;
