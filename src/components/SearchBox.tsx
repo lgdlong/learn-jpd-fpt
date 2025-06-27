@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { SearchFilters, SearchType } from "../types";
+import "@/styles/search-box.css";
 
 interface SearchBoxProps {
   searchFilters?: SearchFilters;
@@ -44,13 +45,13 @@ export default function SearchBox({
       <input
         type="text"
         className="form-control border-0"
-        placeholder={`Search by ${searchType}...`}
+        placeholder={`Tìm kiếm bằng ${searchType}...`}
         value={query}
         onChange={handleQueryChange}
       />
       <button
         id="search-type-btn"
-        className="btn btn-outline-secondary dropdown-toggle border-0"
+        className="btn dropdown-toggle border-0"
         type="button"
         data-bs-toggle="dropdown"
         aria-expanded="false"
