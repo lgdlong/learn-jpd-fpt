@@ -175,7 +175,6 @@ a:hover img {
     position: sticky !important;
     top: 66px !important;
     z-index: 1050 !important;
-    /* background: #fff !important; */
   }
 
   /* margin-top không cần nếu dùng sticky */
