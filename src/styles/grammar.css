@@ -187,10 +187,11 @@ table {
 }
 th {
   text-align: left;
-  background-color: var(--primary-color);
-  color: white;
-  padding: 15px;
+  background-color: #007bff !important;
+  color: white !important;
   font-weight: 600;
+  padding: 15px;
+  border: 1px solid #dee2e6;
 }
 td {
   padding: 15px;
