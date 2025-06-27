@@ -45,3 +45,15 @@ next-env.d.ts
 .idea/tasks.xml
 .idea/usage.statistics.xml
 .idea/shelf/
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.envrc
+.nvmrc
+
+*~
+*.swp
+*.swo
+.*.sw?
