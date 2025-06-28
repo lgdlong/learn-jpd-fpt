@@ -1,0 +1,218 @@
+[
+  {
+    "kanji": "東",
+    "hiragana": "ひがし",
+    "romaji": "higashi",
+    "vietnamese": "Hướng đông",
+    "words": [
+      {
+        "word": "東",
+        "hiragana": "ひがし",
+        "romaji": "higashi",
+        "vietnamese": "Hướng đông",
+        "example": {
+          "jp": "東の空が明るくなりました。",
+          "hiragana": "ひがしのそらがあかるくなりました。",
+          "romaji": "Higashi no sora ga akaruku narimashita.",
+          "vn": "Bầu trời phía đông đã trở nên sáng."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "京",
+    "hiragana": "きょう",
+    "romaji": "kyō",
+    "vietnamese": "Kinh đô, kinh thành",
+    "words": [
+      {
+        "word": "東京",
+        "hiragana": "とうきょう",
+        "romaji": "toukyou",
+        "vietnamese": "Tokyo (thủ đô Nhật Bản)",
+        "example": {
+          "jp": "東京は日本の首都です。",
+          "hiragana": "とうきょうはにほんのしゅとです。",
+          "romaji": "Toukyou wa Nihon no shuto desu.",
+          "vn": "Tokyo là thủ đô của Nhật Bản."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "名",
+    "hiragana": "な / めい",
+    "romaji": "na / mei",
+    "vietnamese": "Tên, nổi tiếng, danh dự",
+    "words": [
+      {
+        "word": "名",
+        "hiragana": "な",
+        "romaji": "na",
+        "vietnamese": "Tên",
+        "example": {
+          "jp": "名前を書いてください。",
+          "hiragana": "なまえをかいてください。",
+          "romaji": "Namae o kaite kudasai.",
+          "vn": "Hãy viết tên vào."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "前",
+    "hiragana": "まえ / ぜん",
+    "romaji": "mae / zen",
+    "vietnamese": "Trước, phía trước",
+    "words": [
+      {
+        "word": "名前",
+        "hiragana": "なまえ",
+        "romaji": "namae",
+        "vietnamese": "Tên",
+        "example": {
+          "jp": "名前を書いてください。",
+          "hiragana": "なまえをかいてください。",
+          "romaji": "Namae o kaite kudasai.",
+          "vn": "Hãy viết tên vào."
+        }
+      },
+      {
+        "word": "午前",
+        "hiragana": "ごぜん",
+        "romaji": "gozen",
+        "vietnamese": "Buổi sáng (trước 12 giờ trưa, AM)",
+        "example": {
+          "jp": "午前８時に起きます。",
+          "hiragana": "ごぜんはちじにおきます。",
+          "romaji": "Gozen hachiji ni okimasu.",
+          "vn": "Tôi dậy lúc 8 giờ sáng."
+        }
+      },
+      {
+        "word": "前日",
+        "hiragana": "ぜんじつ",
+        "romaji": "zenjitsu",
+        "vietnamese": "Ngày hôm trước",
+        "example": {
+          "jp": "前日に準備しました。",
+          "hiragana": "ぜんじつにじゅんびしました。",
+          "romaji": "Zenjitsu ni junbi shimashita.",
+          "vn": "Tôi đã chuẩn bị vào ngày hôm trước."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "国",
+    "hiragana": "くに / こく",
+    "romaji": "kuni / koku",
+    "vietnamese": "Đất nước",
+    "words": [
+      {
+        "word": "外国",
+        "hiragana": "がいこく",
+        "romaji": "gaikoku",
+        "vietnamese": "Nước ngoài",
+        "example": {
+          "jp": "外国に行きたいです。",
+          "hiragana": "がいこくにいきたいです。",
+          "romaji": "Gaikoku ni ikitai desu.",
+          "vn": "Tôi muốn đi nước ngoài."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "男",
+    "hiragana": "おとこ / だん",
+    "romaji": "otoko / dan",
+    "vietnamese": "Đàn ông, con trai",
+    "words": [
+      {
+        "word": "男の人",
+        "hiragana": "おとこのひと",
+        "romaji": "otoko no hito",
+        "vietnamese": "Người đàn ông",
+        "example": {
+          "jp": "あの男の人は先生です。",
+          "hiragana": "あのおとこのひとはせんせいです。",
+          "romaji": "Ano otoko no hito wa sensei desu.",
+          "vn": "Người đàn ông kia là thầy giáo."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "女",
+    "hiragana": "おんな / じょ",
+    "romaji": "onna / jo",
+    "vietnamese": "Phụ nữ, con gái",
+    "words": [
+      {
+        "word": "女の人",
+        "hiragana": "おんなのひと",
+        "romaji": "onna no hito",
+        "vietnamese": "Người phụ nữ",
+        "example": {
+          "jp": "女の人が話しています。",
+          "hiragana": "おんなのひとがはなしています。",
+          "romaji": "Onna no hito ga hanashiteimasu.",
+          "vn": "Người phụ nữ đang nói chuyện."
+        }
+      },
+      {
+        "word": "男女",
+        "hiragana": "だんじょ",
+        "romaji": "danjo",
+        "vietnamese": "Nam nữ",
+        "example": {
+          "jp": "クラスには男女がいます。",
+          "hiragana": "くらすにはだんじょがいます。",
+          "romaji": "Kurasu ni wa danjo ga imasu.",
+          "vn": "Trong lớp có cả nam và nữ."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "区",
+    "hiragana": "く",
+    "romaji": "ku",
+    "vietnamese": "Vùng, quận",
+    "words": [
+      {
+        "word": "～区",
+        "hiragana": "～く",
+        "romaji": "~ku",
+        "vietnamese": "Quận ~",
+        "example": {
+          "jp": "この区は静かです。",
+          "hiragana": "このくはしずかです。",
+          "romaji": "Kono ku wa shizuka desu.",
+          "vn": "Quận này yên tĩnh."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "市",
+    "hiragana": "し",
+    "romaji": "shi",
+    "vietnamese": "Chợ, thành phố",
+    "words": [
+      {
+        "word": "～市",
+        "hiragana": "～し",
+        "romaji": "~shi",
+        "vietnamese": "Thành phố ~",
+        "example": {
+          "jp": "名古屋市に住んでいます。",
+          "hiragana": "なごやしにすんでいます。",
+          "romaji": "Nagoya-shi ni sundeimasu.",
+          "vn": "Tôi sống ở thành phố Nagoya."
+        }
+      }
+    ]
+  }
+]

@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #6200ea;
+}
+
 /* Kanji Card Styles */
 .kanji-card {
   cursor: pointer;
@@ -211,10 +215,12 @@
 }
 
 .kanji-nav-link:hover {
-  background: #f8f9fa;
-  color: #6200ea;
-  border-color: #6200ea;
-  transform: translateX(5px);
+  background: var(--primary-color) !important;
+  color: #ffffff !important;
+}
+
+.kanji-nav-link:hover .kanji-nav-lesson-title {
+  color: #fff !important;
 }
 
 .kanji-nav-link.active {

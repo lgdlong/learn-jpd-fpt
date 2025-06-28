@@ -62,15 +62,8 @@ export default function KanjiSidebar({
                   className={`kanji-nav-link w-100 text-start border-0 bg-transparent ${
                     lesson.isActive ? "active" : ""
                   }`}
-                  disabled={lesson.id !== 6} // Only lesson 6 is available for now
                 >
                   <div className="kanji-nav-lesson-title">{lesson.title}</div>
-                  {lesson.id !== 6 && (
-                    <div className="kanji-nav-coming-soon text-muted small">
-                      {/* TODO: Implement other lessons */}
-                      Coming soon
-                    </div>
-                  )}
                 </button>
               </li>
             ))}
@@ -111,17 +104,10 @@ export default function KanjiSidebar({
                       className={`kanji-nav-link w-100 text-start border-0 bg-transparent ${
                         lesson.isActive ? "active" : ""
                       }`}
-                      disabled={lesson.id !== 6} // Only lesson 6 is available for now
                     >
                       <div className="kanji-nav-lesson-title">
                         {lesson.title}
                       </div>
-                      {lesson.id !== 6 && (
-                        <div className="kanji-nav-coming-soon text-muted small">
-                          {/* TODO: Implement other lessons */}
-                          Coming soon
-                        </div>
-                      )}
                     </button>
                   </li>
                 ))}

@@ -1,14 +1,21 @@
 import { KanjiLessonData } from "@/types/kanji";
 
-export async function getKanjiLesson6(): Promise<KanjiLessonData> {
+export async function getKanjiLesson(
+  lessonNumber: number
+): Promise<KanjiLessonData> {
   try {
-    // Import the JSON data statically
-    const kanjiData = await import("@/data/kanji/6.json");
+    // Import the JSON data statically based on lesson number
+    const kanjiData = await import(`@/data/kanji/${lessonNumber}.json`);
     return kanjiData.default as KanjiLessonData;
   } catch (error) {
-    console.error("Error loading kanji lesson 6 data:", error);
+    console.error(`Error loading kanji lesson ${lessonNumber} data:`, error);
     return [];
   }
+}
+
+// Keep backward compatibility
+export async function getKanjiLesson6(): Promise<KanjiLessonData> {
+  return getKanjiLesson(6);
 }
 
 export function searchKanji(

@@ -78,7 +78,7 @@ export default function GrammarSidebar() {
     <>
       {/* SIDEBAR FOR DESKTOP */}
       <aside className="grammar-sidebar d-none d-md-block">
-        <h1 className="text-center">JPD123</h1>
+        <h1 className="text-center">Ngữ pháp</h1>
         <div className="sidebar-content open">
           <nav>
             <ul className="sidebar-nav">
