@@ -44,7 +44,7 @@ export default function Navbar() {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul className="navbar-nav flex-row align-items-center">
+          <ul className="navbar-nav flex-lg-row align-items-center">
             <li className="nav-item d-lg-none">
               <Link
                 className={`nav-link ${pathname === "/" ? "active" : ""}`}

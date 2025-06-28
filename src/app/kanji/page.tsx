@@ -18,7 +18,7 @@ export default function KanjiPage() {
           <div className="spinner-border text-primary" role="status">
             <span className="visually-hidden">Đang chuyển hướng...</span>
           </div>
-          <div className="mt-3">Đang chuyển hướng đến bài 6...</div>
+          <div className="mt-3">Đang chuyển hướng đến bài 4...</div>
         </div>
       </div>
     </div>

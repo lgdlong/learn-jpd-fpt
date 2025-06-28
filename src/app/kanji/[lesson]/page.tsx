@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { KanjiEntity, KanjiLessonData } from "@/types/kanji";
 import { getKanjiLesson } from "@/services/kanjiService";
 import KanjiCard from "@/components/KanjiCard";
@@ -10,6 +10,7 @@ import KanjiSidebar from "@/components/KanjiSidebar";
 import "@/styles/kanji.css";
 
 export default function LessonPage() {
+  const router = useRouter();
   const params = useParams();
   const [currentLesson, setCurrentLesson] = useState<number>(6);
   const [kanjis, setKanjis] = useState<KanjiLessonData>([]);
@@ -62,8 +63,7 @@ export default function LessonPage() {
 
   // Handle lesson change from sidebar
   const handleLessonChange = (lessonId: number) => {
-    // Navigate to the lesson page
-    window.location.href = `/kanji/${lessonId}`;
+    router.push(`/kanji/${lessonId}`);
   };
 
   if (loading) {

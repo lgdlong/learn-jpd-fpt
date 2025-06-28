@@ -11,7 +11,15 @@ export default function KanjiCard({ kanji, onClick }: KanjiCardProps) {
   return (
     <div
       className="card h-100 kanji-card shadow-sm"
+      role="button"
+      tabIndex={0}
       onClick={() => onClick(kanji)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onClick(kanji);
+        }
+      }}
     >
       <div className="card-body d-flex flex-column align-items-center text-center p-4">
         {/* Kanji chính */}
