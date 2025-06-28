@@ -67,6 +67,16 @@ export default function Navbar() {
               </Link>
             </li>
 
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${pathname === "/kanji" ? "active" : ""}`}
+                href="/kanji"
+                onClick={closeNavbar}
+              >
+                Kanji
+              </Link>
+            </li>
+
             {/* <li className="nav-item">
               <Link
                 className={`nav-link ${pathname === "/dev" ? "active" : ""}`}
