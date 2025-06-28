@@ -299,6 +299,7 @@
     border-bottom: 1px solid #e0e0e0;
     background: #fff;
     font-weight: 600;
+    font-size: 1.25rem;
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
   }
@@ -363,6 +364,21 @@
     padding: 16px 18px;
     border-radius: 8px;
     margin-bottom: 6px;
+  }
+
+  /* Kanji Sidebar: Active item highlight for mobile (match GrammarSidebar) */
+  .kanji-mobile-content .kanji-nav-link.active {
+    background: var(--primary-color) !important;
+    color: #fff !important;
+    border-color: var(--primary-color) !important;
+    font-weight: 600;
+    /* Match GrammarSidebar: add a subtle shadow and border-left */
+    box-shadow: 0 2px 8px rgba(98, 0, 234, 0.1);
+    border-left: 4px solid #fff;
+  }
+
+  .kanji-mobile-content .kanji-nav-link.active .kanji-nav-lesson-title {
+    color: #fff !important;
   }
 }
 

@@ -136,8 +136,8 @@ export default function GrammarSidebar() {
         className="sidebar-toggle d-md-none"
         onClick={() => setIsMobileMenuOpen(true)}
       >
-        <span>Mục lục</span>
-        <i className="fas fa-chevron-down" />
+        <span>MỤC LỤC</span>
+        <i className="bi bi-list ms-2" />
       </div>
 
       {/* MOBILE OVERLAY MENU */}

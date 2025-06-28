@@ -76,7 +76,7 @@ export default function KanjiSidebar({
         className="kanji-toggle d-md-none"
         onClick={() => setIsMobileMenuOpen(true)}
       >
-        <span>Danh sách bài học</span>
+        <span>MỤC LỤC</span>
         <i className="bi bi-list ms-2" />
       </div>
 
