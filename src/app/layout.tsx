@@ -1,8 +1,8 @@
-// import { Geist, Geist_Mono } from "next/font/google";
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import "@/styles/kanji.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import Navbar from "@/components/Navbar";
 import Script from "next/script";
 import Analytics from "@/components/Analytics";

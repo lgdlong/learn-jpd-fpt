@@ -1,0 +1,214 @@
+[
+  {
+    "kanji": "肉",
+    "hiragana": "にく",
+    "romaji": "niku",
+    "vietnamese": "Thịt",
+    "words": [
+      {
+        "word": "牛肉",
+        "hiragana": "ぎゅうにく",
+        "romaji": "gyuuniku",
+        "vietnamese": "Thịt bò",
+        "example": {
+          "jp": "私は牛肉が好きです。",
+          "hiragana": "わたしはぎゅうにくがすきです。",
+          "romaji": "Watashi wa gyuuniku ga suki desu.",
+          "vn": "Tôi thích thịt bò."
+        }
+      },
+      {
+        "word": "豚肉",
+        "hiragana": "ぶたにく",
+        "romaji": "butaniku",
+        "vietnamese": "Thịt heo",
+        "example": {
+          "jp": "豚肉を食べますか。",
+          "hiragana": "ぶたにくをたべますか。",
+          "romaji": "Butaniku o tabemasu ka?",
+          "vn": "Bạn có ăn thịt heo không?"
+        }
+      },
+      {
+        "word": "鶏肉",
+        "hiragana": "とりにく",
+        "romaji": "toriniku",
+        "vietnamese": "Thịt gà",
+        "example": {
+          "jp": "晩ご飯は鶏肉です。",
+          "hiragana": "ばんごはんはとりにくです。",
+          "romaji": "Bangohan wa toriniku desu.",
+          "vn": "Bữa tối là thịt gà."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "料",
+    "hiragana": "りょう",
+    "romaji": "ryou",
+    "vietnamese": "Tài liệu, vật liệu, chi phí",
+    "words": [
+      {
+        "word": "料金",
+        "hiragana": "りょうきん",
+        "romaji": "ryoukin",
+        "vietnamese": "Tiền phí, lệ phí",
+        "example": {
+          "jp": "入場料金はいくらですか。",
+          "hiragana": "にゅうじょうりょうきんはいくらですか。",
+          "romaji": "Nyūjō ryoukin wa ikura desu ka?",
+          "vn": "Phí vào cửa là bao nhiêu?"
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "理",
+    "hiragana": "り",
+    "romaji": "ri",
+    "vietnamese": "Lý luận, nguyên lý, lý do",
+    "words": [
+      {
+        "word": "料理",
+        "hiragana": "りょうり",
+        "romaji": "ryouri",
+        "vietnamese": "Món ăn, nấu ăn",
+        "example": {
+          "jp": "日本料理が好きです。",
+          "hiragana": "にほんりょうりがすきです。",
+          "romaji": "Nihon ryouri ga suki desu.",
+          "vn": "Tôi thích món ăn Nhật."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "野",
+    "hiragana": "や",
+    "romaji": "ya",
+    "vietnamese": "Đồng bằng, hoang dã",
+    "words": [
+      {
+        "word": "野菜",
+        "hiragana": "やさい",
+        "romaji": "yasai",
+        "vietnamese": "Rau củ",
+        "example": {
+          "jp": "野菜を食べます。",
+          "hiragana": "やさいをたべます。",
+          "romaji": "Yasai o tabemasu.",
+          "vn": "Tôi ăn rau củ."
+        }
+      },
+      {
+        "word": "長野",
+        "hiragana": "ながの",
+        "romaji": "nagano",
+        "vietnamese": "Nagano (tên địa danh)",
+        "example": {
+          "jp": "長野に行きたいです。",
+          "hiragana": "ながのにいきたいです。",
+          "romaji": "Nagano ni ikitai desu.",
+          "vn": "Tôi muốn đi Nagano."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "半",
+    "hiragana": "はん",
+    "romaji": "han",
+    "vietnamese": "Nửa, nửa chừng",
+    "words": [
+      {
+        "word": "一時半",
+        "hiragana": "いちじはん",
+        "romaji": "ichiji han",
+        "vietnamese": "1 giờ rưỡi",
+        "example": {
+          "jp": "今は一時半です。",
+          "hiragana": "いまはいちじはんです。",
+          "romaji": "Ima wa ichiji han desu.",
+          "vn": "Bây giờ là 1 giờ rưỡi."
+        }
+      },
+      {
+        "word": "半分",
+        "hiragana": "はんぶん",
+        "romaji": "hanbun",
+        "vietnamese": "Một nửa",
+        "example": {
+          "jp": "ケーキを半分に分けます。",
+          "hiragana": "けーきをはんぶんにわけます。",
+          "romaji": "Keeki o hanbun ni wakemasu.",
+          "vn": "Chia bánh thành hai nửa."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "大",
+    "hiragana": "だい / たい",
+    "romaji": "dai / tai",
+    "vietnamese": "To lớn",
+    "words": [
+      {
+        "word": "大学",
+        "hiragana": "だいがく",
+        "romaji": "daigaku",
+        "vietnamese": "Đại học",
+        "example": {
+          "jp": "大学で勉強します.",
+          "hiragana": "だいがくでべんきょうします.",
+          "romaji": "Daigaku de benkyou shimasu.",
+          "vn": "Tôi học ở trường đại học."
+        }
+      },
+      {
+        "word": "大人",
+        "hiragana": "おとな",
+        "romaji": "otona",
+        "vietnamese": "Người lớn",
+        "example": {
+          "jp": "あの人は大人です。",
+          "hiragana": "あのひとはおとなです。",
+          "romaji": "Ano hito wa otona desu.",
+          "vn": "Người kia là người lớn."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "小",
+    "hiragana": "しょう",
+    "romaji": "shou",
+    "vietnamese": "Nhỏ, bé",
+    "words": [
+      {
+        "word": "小学校",
+        "hiragana": "しょうがっこう",
+        "romaji": "shougakkou",
+        "vietnamese": "Trường tiểu học",
+        "example": {
+          "jp": "小学校に通っています。",
+          "hiragana": "しょうがっこうにかよっています。",
+          "romaji": "Shougakkou ni kayotteimasu.",
+          "vn": "Tôi đang học tiểu học."
+        }
+      },
+      {
+        "word": "小人",
+        "hiragana": "こびと",
+        "romaji": "kobito",
+        "vietnamese": "Người lùn, người nhỏ",
+        "example": {
+          "jp": "小人がいます。",
+          "hiragana": "こびとがいます。",
+          "romaji": "Kobito ga imasu.",
+          "vn": "Có người nhỏ (người lùn)."
+        }
+      }
+    ]
+  }
+]

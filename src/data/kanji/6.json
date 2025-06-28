@@ -1,0 +1,554 @@
+[
+  {
+    "kanji": "今",
+    "hiragana": "いま",
+    "romaji": "ima",
+    "vietnamese": "Bây giờ, hiện tại",
+    "words": [
+      {
+        "word": "今",
+        "hiragana": "いま",
+        "romaji": "ima",
+        "vietnamese": "Bây giờ",
+        "example": {
+          "jp": "今、何をしていますか。",
+          "hiragana": "いま、なにをしていますか。",
+          "romaji": "Ima, nani o shiteimasu ka?",
+          "vn": "Bây giờ bạn đang làm gì?"
+        }
+      },
+      {
+        "word": "今週",
+        "hiragana": "こんしゅう",
+        "romaji": "konshuu",
+        "vietnamese": "Tuần này",
+        "example": {
+          "jp": "今週は忙しいです。",
+          "hiragana": "こんしゅうはいそがしいです。",
+          "romaji": "Konshuu wa isogashii desu.",
+          "vn": "Tuần này tôi bận."
+        }
+      },
+      {
+        "word": "今月",
+        "hiragana": "こんげつ",
+        "romaji": "kongetsu",
+        "vietnamese": "Tháng này",
+        "example": {
+          "jp": "今月は誕生日があります。",
+          "hiragana": "こんげつはたんじょうびがあります。",
+          "romaji": "Kongetsu wa tanjoubi ga arimasu.",
+          "vn": "Tháng này tôi có sinh nhật."
+        }
+      },
+      {
+        "word": "今年",
+        "hiragana": "ことし",
+        "romaji": "kotoshi",
+        "vietnamese": "Năm nay",
+        "example": {
+          "jp": "今年、日本へ行きます。",
+          "hiragana": "ことし、にほんへいきます。",
+          "romaji": "Kotoshi, Nihon e ikimasu.",
+          "vn": "Năm nay tôi sẽ đi Nhật."
+        }
+      },
+      {
+        "word": "今日",
+        "hiragana": "きょう",
+        "romaji": "kyou",
+        "vietnamese": "Hôm nay",
+        "example": {
+          "jp": "今日は天気がいいです。",
+          "hiragana": "きょうはてんきがいいです。",
+          "romaji": "Kyou wa tenki ga ii desu.",
+          "vn": "Hôm nay trời đẹp."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "来",
+    "hiragana": "らい / きます",
+    "romaji": "rai / kimasu",
+    "vietnamese": "Đến, tương lai",
+    "words": [
+      {
+        "word": "来ます",
+        "hiragana": "きます",
+        "romaji": "kimasu",
+        "vietnamese": "Đến",
+        "example": {
+          "jp": "友だちが家に来ます。",
+          "hiragana": "ともだちがいえにきます。",
+          "romaji": "Tomodachi ga ie ni kimasu.",
+          "vn": "Bạn tôi đến nhà."
+        }
+      },
+      {
+        "word": "来週",
+        "hiragana": "らいしゅう",
+        "romaji": "raishuu",
+        "vietnamese": "Tuần sau",
+        "example": {
+          "jp": "来週、テストがあります。",
+          "hiragana": "らいしゅう、てすとがあります。",
+          "romaji": "Raishuu, tesuto ga arimasu.",
+          "vn": "Tuần sau có bài kiểm tra."
+        }
+      },
+      {
+        "word": "来月",
+        "hiragana": "らいげつ",
+        "romaji": "raigetsu",
+        "vietnamese": "Tháng sau",
+        "example": {
+          "jp": "来月、日本へ行きます。",
+          "hiragana": "らいげつ、にほんへいきます。",
+          "romaji": "Raigetsu, Nihon e ikimasu.",
+          "vn": "Tháng sau tôi sẽ đi Nhật."
+        }
+      },
+      {
+        "word": "来年",
+        "hiragana": "らいねん",
+        "romaji": "rainen",
+        "vietnamese": "Năm sau",
+        "example": {
+          "jp": "来年、大学を卒業します。",
+          "hiragana": "らいねん、だいがくをそつぎょうします。",
+          "romaji": "Rainen, daigaku o sotsugyou shimasu.",
+          "vn": "Năm sau tôi sẽ tốt nghiệp đại học."
+        }
+      },
+      {
+        "word": "来日",
+        "hiragana": "らいにち",
+        "romaji": "rainichi",
+        "vietnamese": "Đến Nhật Bản (dùng cho người nước ngoài đến Nhật)",
+        "example": {
+          "jp": "彼は来月来日します。",
+          "hiragana": "かれはらいげつらいにちします。",
+          "romaji": "Kare wa raigetsu rainichi shimasu.",
+          "vn": "Anh ấy sẽ đến Nhật vào tháng sau."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "帰",
+    "hiragana": "き / かえります",
+    "romaji": "ki / kaerimasu",
+    "vietnamese": "Trở về, quay về",
+    "words": [
+      {
+        "word": "帰ります",
+        "hiragana": "かえります",
+        "romaji": "kaerimasu",
+        "vietnamese": "Về, trở về",
+        "example": {
+          "jp": "毎日、家に帰ります。",
+          "hiragana": "まいにち、いえにかえります。",
+          "romaji": "Mainichi, ie ni kaerimasu.",
+          "vn": "Hàng ngày tôi về nhà."
+        }
+      },
+      {
+        "word": "日帰り",
+        "hiragana": "ひがえり",
+        "romaji": "higaeri",
+        "vietnamese": "Đi về trong ngày",
+        "example": {
+          "jp": "日帰りで京都に行きました。",
+          "hiragana": "ひがえりできょうとにいきました。",
+          "romaji": "Higaeri de Kyouto ni ikimashita.",
+          "vn": "Tôi đã đi Kyoto trong ngày (không ở lại qua đêm)."
+        }
+      },
+      {
+        "word": "帰国",
+        "hiragana": "きこく",
+        "romaji": "kikoku",
+        "vietnamese": "Về nước",
+        "example": {
+          "jp": "来月、帰国します。",
+          "hiragana": "らいげつ、きこくします。",
+          "romaji": "Raigetsu, kikoku shimasu.",
+          "vn": "Tháng sau tôi sẽ về nước."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "会",
+    "hiragana": "かい / あいます",
+    "romaji": "kai / aimasu",
+    "vietnamese": "Gặp gỡ, hội họp, xã hội",
+    "words": [
+      {
+        "word": "会います",
+        "hiragana": "あいます",
+        "romaji": "aimasu",
+        "vietnamese": "Gặp, gặp gỡ",
+        "example": {
+          "jp": "友だちに会います。",
+          "hiragana": "ともだちにあいます。",
+          "romaji": "Tomodachi ni aimasu.",
+          "vn": "Tôi gặp bạn."
+        }
+      },
+      {
+        "word": "飲み会",
+        "hiragana": "のみかい",
+        "romaji": "nomikai",
+        "vietnamese": "Tiệc nhậu, buổi nhậu",
+        "example": {
+          "jp": "今夜、飲み会があります。",
+          "hiragana": "こんや、のみかいがあります。",
+          "romaji": "Konya, nomikai ga arimasu.",
+          "vn": "Tối nay có buổi nhậu."
+        }
+      },
+      {
+        "word": "国会",
+        "hiragana": "こっかい",
+        "romaji": "kokkai",
+        "vietnamese": "Quốc hội",
+        "example": {
+          "jp": "国会で議論します。",
+          "hiragana": "こっかいでぎろんします。",
+          "romaji": "Kokkai de giron shimasu.",
+          "vn": "Thảo luận tại quốc hội."
+        }
+      },
+      {
+        "word": "会見",
+        "hiragana": "かいけん",
+        "romaji": "kaiken",
+        "vietnamese": "Buổi họp báo",
+        "example": {
+          "jp": "社長が会見を開きます。",
+          "hiragana": "しゃちょうがかいけんをひらきます。",
+          "romaji": "Shachou ga kaiken o hirakimasu.",
+          "vn": "Giám đốc tổ chức họp báo."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "社",
+    "hiragana": "しゃ",
+    "romaji": "sha",
+    "vietnamese": "Công ty, đền thần đạo",
+    "words": [
+      {
+        "word": "会社",
+        "hiragana": "かいしゃ",
+        "romaji": "kaisha",
+        "vietnamese": "Công ty",
+        "example": {
+          "jp": "私は会社で働きます。",
+          "hiragana": "わたしはかいしゃではたらきます.",
+          "romaji": "Watashi wa kaisha de hatarakimasu.",
+          "vn": "Tôi làm việc ở công ty."
+        }
+      },
+      {
+        "word": "社会",
+        "hiragana": "しゃかい",
+        "romaji": "shakai",
+        "vietnamese": "Xã hội",
+        "example": {
+          "jp": "社会の問題について話します.",
+          "hiragana": "しゃかいのもんだいについてはなします.",
+          "romaji": "Shakai no mondai ni tsuite hanashimasu.",
+          "vn": "Tôi nói về các vấn đề của xã hội."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "聞",
+    "hiragana": "ぶん / ききます",
+    "romaji": "bun / kikimasu",
+    "vietnamese": "Nghe, hỏi",
+    "words": [
+      {
+        "word": "聞きます",
+        "hiragana": "ききます",
+        "romaji": "kikimasu",
+        "vietnamese": "Nghe, hỏi",
+        "example": {
+          "jp": "毎日、音楽を聞きます。",
+          "hiragana": "まいにち、おんがくをききます。",
+          "romaji": "Mainichi, ongaku o kikimasu.",
+          "vn": "Hàng ngày tôi nghe nhạc."
+        }
+      },
+      {
+        "word": "新聞",
+        "hiragana": "しんぶん",
+        "romaji": "shinbun",
+        "vietnamese": "Báo (báo chí, tờ báo)",
+        "example": {
+          "jp": "毎朝、新聞を読みます。",
+          "hiragana": "まいあさ、しんぶんをよみます。",
+          "romaji": "Maiasa, shinbun o yomimasu.",
+          "vn": "Mỗi sáng tôi đọc báo."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "読",
+    "hiragana": "どく / よみます",
+    "romaji": "doku / yomimasu",
+    "vietnamese": "Đọc",
+    "words": [
+      {
+        "word": "読みます",
+        "hiragana": "よみます",
+        "romaji": "yomimasu",
+        "vietnamese": "Đọc",
+        "example": {
+          "jp": "毎日、本を読みます。",
+          "hiragana": "まいにち、ほんをよみます。",
+          "romaji": "Mainichi, hon o yomimasu.",
+          "vn": "Hàng ngày tôi đọc sách."
+        }
+      },
+      {
+        "word": "読み物",
+        "hiragana": "よみもの",
+        "romaji": "yomimono",
+        "vietnamese": "Đồ đọc, tài liệu đọc, sách báo, truyện đọc",
+        "example": {
+          "jp": "面白い読み物を探しています。",
+          "hiragana": "おもしろいよみものをさがしています。",
+          "romaji": "Omoshiroi yomimono o sagashiteimasu.",
+          "vn": "Tôi đang tìm tài liệu đọc thú vị."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "書",
+    "hiragana": "しょ / かきます",
+    "romaji": "sho / kakimasu",
+    "vietnamese": "Viết, sách, thư",
+    "words": [
+      {
+        "word": "書きます",
+        "hiragana": "かきます",
+        "romaji": "kakimasu",
+        "vietnamese": "Viết",
+        "example": {
+          "jp": "毎日、日記を書きます。",
+          "hiragana": "まいにち、にっきをかきます。",
+          "romaji": "Mainichi, nikki o kakimasu.",
+          "vn": "Hàng ngày tôi viết nhật ký."
+        }
+      },
+      {
+        "word": "読書",
+        "hiragana": "どくしょ",
+        "romaji": "dokusho",
+        "vietnamese": "Đọc sách",
+        "example": {
+          "jp": "読書が好きです。",
+          "hiragana": "どくしょがすきです。",
+          "romaji": "Dokusho ga suki desu.",
+          "vn": "Tôi thích đọc sách."
+        }
+      },
+      {
+        "word": "辞書",
+        "hiragana": "じしょ",
+        "romaji": "jisho",
+        "vietnamese": "Từ điển",
+        "example": {
+          "jp": "辞書で言葉の意味を調べます。",
+          "hiragana": "じしょでことばのいみをしらべます。",
+          "romaji": "Jisho de kotoba no imi o shirabemasu.",
+          "vn": "Tôi tra nghĩa của từ bằng từ điển."
+        }
+      },
+      {
+        "word": "書き物",
+        "hiragana": "かきもの",
+        "romaji": "kakimono",
+        "vietnamese": "Đồ viết, tài liệu viết",
+        "example": {
+          "jp": "書き物がたくさんあります。",
+          "hiragana": "かきものがたくさんあります。",
+          "romaji": "Kakimono ga takusan arimasu.",
+          "vn": "Có nhiều tài liệu viết."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "話",
+    "hiragana": "わ / はなします / はなし",
+    "romaji": "wa / hanashimasu / hanashi",
+    "vietnamese": "Nói chuyện, câu chuyện, thoại",
+    "words": [
+      {
+        "word": "話します",
+        "hiragana": "はなします",
+        "romaji": "hanashimasu",
+        "vietnamese": "Nói chuyện",
+        "example": {
+          "jp": "先生と話します。",
+          "hiragana": "せんせいとはなします。",
+          "romaji": "Sensei to hanashimasu.",
+          "vn": "Tôi nói chuyện với thầy/cô giáo."
+        }
+      },
+      {
+        "word": "会話",
+        "hiragana": "かいわ",
+        "romaji": "kaiwa",
+        "vietnamese": "Hội thoại, cuộc trò chuyện",
+        "example": {
+          "jp": "日本語で会話を練習します。",
+          "hiragana": "にほんごでかいわをれんしゅうします。",
+          "romaji": "Nihongo de kaiwa o renshuu shimasu.",
+          "vn": "Tôi luyện tập hội thoại bằng tiếng Nhật."
+        }
+      },
+      {
+        "word": "電話",
+        "hiragana": "でんわ",
+        "romaji": "denwa",
+        "vietnamese": "Điện thoại",
+        "example": {
+          "jp": "友だちに電話をかけます。",
+          "hiragana": "ともだちにでんわをかけます。",
+          "romaji": "Tomodachi ni denwa o kakemasu.",
+          "vn": "Tôi gọi điện thoại cho bạn."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "言",
+    "hiragana": "げん / ごん / いいます",
+    "romaji": "gen / gon / iimasu",
+    "vietnamese": "Nói, lời nói, ngôn",
+    "words": [
+      {
+        "word": "言います",
+        "hiragana": "いいます",
+        "romaji": "iimasu",
+        "vietnamese": "Nói, gọi là",
+        "example": {
+          "jp": "「ありがとう」と言います。",
+          "hiragana": "「ありがとう」といいます。",
+          "romaji": "“Arigatou” to iimasu.",
+          "vn": "Nói là “Cảm ơn”."
+        }
+      },
+      {
+        "word": "言葉",
+        "hiragana": "ことば",
+        "romaji": "kotoba",
+        "vietnamese": "Từ, từ ngữ, ngôn từ",
+        "example": {
+          "jp": "新しい言葉を覚えます。",
+          "hiragana": "あたらしいことばをおぼえます。",
+          "romaji": "Atarashii kotoba o oboemasu.",
+          "vn": "Tôi học từ mới."
+        }
+      },
+      {
+        "word": "言語",
+        "hiragana": "げんご",
+        "romaji": "gengo",
+        "vietnamese": "Ngôn ngữ",
+        "example": {
+          "jp": "日本語は美しい言語です。",
+          "hiragana": "にほんごはうつくしいげんごです。",
+          "romaji": "Nihongo wa utsukushii gengo desu.",
+          "vn": "Tiếng Nhật là một ngôn ngữ đẹp."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "力",
+    "hiragana": "りょく / りき / ちから",
+    "romaji": "ryoku / riki / chikara",
+    "vietnamese": "Sức lực, lực",
+    "words": [
+      {
+        "word": "力",
+        "hiragana": "ちから",
+        "romaji": "chikara",
+        "vietnamese": "Sức lực, sức mạnh",
+        "example": {
+          "jp": "彼は力があります。",
+          "hiragana": "かれはちからがあります。",
+          "romaji": "Kare wa chikara ga arimasu.",
+          "vn": "Anh ấy có sức mạnh."
+        }
+      },
+      {
+        "word": "水力",
+        "hiragana": "すいりょく",
+        "romaji": "suiryoku",
+        "vietnamese": "Thủy lực, sức nước",
+        "example": {
+          "jp": "水力発電は環境にやさしいです。",
+          "hiragana": "すいりょくはつでんはかんきょうにやさしいです。",
+          "romaji": "Suiryoku hatsuden wa kankyou ni yasashii desu.",
+          "vn": "Thủy điện thân thiện với môi trường."
+        }
+      },
+      {
+        "word": "火力",
+        "hiragana": "かりょく",
+        "romaji": "karyoku",
+        "vietnamese": "Hỏa lực, sức lửa, nhiệt lực",
+        "example": {
+          "jp": "火力発電所で電気を作ります。",
+          "hiragana": "かりょくはつでんしょででんきをつくります。",
+          "romaji": "Karyoku hatsudensho de denki o tsukurimasu.",
+          "vn": "Tạo ra điện ở nhà máy nhiệt điện."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "門",
+    "hiragana": "もん",
+    "romaji": "mon",
+    "vietnamese": "Cánh cổng",
+    "words": [
+      {
+        "word": "大学の門",
+        "hiragana": "だいがくのもん",
+        "romaji": "daigaku no mon",
+        "vietnamese": "Cổng trường đại học",
+        "example": {
+          "jp": "大学の門で友だちに会いました。",
+          "hiragana": "だいがくのもんでともだちにあいました。",
+          "romaji": "Daigaku no mon de tomodachi ni aimashita.",
+          "vn": "Tôi đã gặp bạn ở cổng trường đại học."
+        }
+      },
+      {
+        "word": "学校の門",
+        "hiragana": "がっこうのもん",
+        "romaji": "gakkou no mon",
+        "vietnamese": "Cổng trường học",
+        "example": {
+          "jp": "毎朝、学校の門を通ります。",
+          "hiragana": "まいあさ、がっこうのもんをとおります。",
+          "romaji": "Maiasa, gakkou no mon o toorimasu.",
+          "vn": "Mỗi sáng tôi đi qua cổng trường."
+        }
+      }
+    ]
+  }
+]

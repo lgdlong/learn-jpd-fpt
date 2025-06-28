@@ -1,0 +1,398 @@
+[
+  {
+    "kanji": "先",
+    "hiragana": "さき / せん",
+    "romaji": "saki / sen",
+    "vietnamese": "Trước, phía trước, trước đây",
+    "words": [
+      {
+        "word": "先生",
+        "hiragana": "せんせい",
+        "romaji": "sensei",
+        "vietnamese": "Thầy giáo, cô giáo",
+        "example": {
+          "jp": "先生はやさしいです。",
+          "hiragana": "せんせいはやさしいです。",
+          "romaji": "Sensei wa yasashii desu.",
+          "vn": "Thầy giáo/cô giáo hiền lành."
+        }
+      },
+      {
+        "word": "先月",
+        "hiragana": "せんげつ",
+        "romaji": "sengetsu",
+        "vietnamese": "Tháng trước",
+        "example": {
+          "jp": "先月、日本へ行きました。",
+          "hiragana": "せんげつ、にほんへいきました。",
+          "romaji": "Sengetsu, Nihon e ikimashita.",
+          "vn": "Tháng trước tôi đã đi Nhật."
+        }
+      },
+      {
+        "word": "先日",
+        "hiragana": "せんじつ",
+        "romaji": "senjitsu",
+        "vietnamese": "Hôm trước, hôm nọ",
+        "example": {
+          "jp": "先日、友だちに会いました。",
+          "hiragana": "せんじつ、ともだちにあいました。",
+          "romaji": "Senjitsu, tomodachi ni aimashita.",
+          "vn": "Hôm trước tôi đã gặp bạn."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "週",
+    "hiragana": "しゅう",
+    "romaji": "shū",
+    "vietnamese": "Tuần",
+    "words": [
+      {
+        "word": "先週",
+        "hiragana": "せんしゅう",
+        "romaji": "senshū",
+        "vietnamese": "Tuần trước",
+        "example": {
+          "jp": "先週は忙しかったです。",
+          "hiragana": "せんしゅうはいそがしかったです。",
+          "romaji": "Senshū wa isogashikatta desu.",
+          "vn": "Tuần trước tôi đã bận."
+        }
+      },
+      {
+        "word": "一週間",
+        "hiragana": "いっしゅうかん",
+        "romaji": "isshuukan",
+        "vietnamese": "Một tuần (khoảng thời gian 1 tuần)",
+        "example": {
+          "jp": "日本に一週間います。",
+          "hiragana": "にほんにいっしゅうかんいます。",
+          "romaji": "Nihon ni isshuukan imasu.",
+          "vn": "Tôi ở Nhật một tuần."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "毎",
+    "hiragana": "まい",
+    "romaji": "mai",
+    "vietnamese": "Mỗi, các, mỗi một",
+    "words": [
+      {
+        "word": "毎日",
+        "hiragana": "まいにち",
+        "romaji": "mainichi",
+        "vietnamese": "Mỗi ngày, hàng ngày",
+        "example": {
+          "jp": "毎日日本語を勉強します。",
+          "hiragana": "まいにちにほんごをべんきょうします。",
+          "romaji": "Mainichi Nihongo o benkyou shimasu.",
+          "vn": "Hàng ngày tôi học tiếng Nhật."
+        }
+      },
+      {
+        "word": "毎週",
+        "hiragana": "まいしゅう",
+        "romaji": "maishuu",
+        "vietnamese": "Mỗi tuần",
+        "example": {
+          "jp": "毎週サッカーをします。",
+          "hiragana": "まいしゅうさっかーをします。",
+          "romaji": "Maishuu sakkaa o shimasu.",
+          "vn": "Mỗi tuần tôi chơi bóng đá."
+        }
+      },
+      {
+        "word": "毎年",
+        "hiragana": "まいとし",
+        "romaji": "maitoshi",
+        "vietnamese": "Mỗi năm",
+        "example": {
+          "jp": "毎年旅行します。",
+          "hiragana": "まいとしりょこうします。",
+          "romaji": "Maitoshi ryokou shimasu.",
+          "vn": "Mỗi năm tôi đi du lịch."
+        }
+      },
+      {
+        "word": "毎月",
+        "hiragana": "まいつき",
+        "romaji": "maitsuki",
+        "vietnamese": "Mỗi tháng",
+        "example": {
+          "jp": "毎月お金を貯めます。",
+          "hiragana": "まいつきおかねをためます。",
+          "romaji": "Maitsuki okane o tamemasu.",
+          "vn": "Mỗi tháng tôi tiết kiệm tiền."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "午",
+    "hiragana": "ご",
+    "romaji": "go",
+    "vietnamese": "Buổi trưa (Ngọ)",
+    "words": [
+      {
+        "word": "午前",
+        "hiragana": "ごぜん",
+        "romaji": "gozen",
+        "vietnamese": "Buổi sáng (trước 12h trưa, AM)",
+        "example": {
+          "jp": "午前８時に起きます。",
+          "hiragana": "ごぜんはちじにおきます。",
+          "romaji": "Gozen hachiji ni okimasu.",
+          "vn": "Tôi dậy lúc 8 giờ sáng."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "後",
+    "hiragana": "ご / うしろ / あと",
+    "romaji": "go / ushiro / ato",
+    "vietnamese": "Sau, phía sau",
+    "words": [
+      {
+        "word": "午後",
+        "hiragana": "ごご",
+        "romaji": "gogo",
+        "vietnamese": "Buổi chiều (PM, sau 12h trưa)",
+        "example": {
+          "jp": "午後３時に会いましょう。",
+          "hiragana": "ごごさんじにあいましょう。",
+          "romaji": "Gogo sanji ni aimashou.",
+          "vn": "Chúng ta hãy gặp nhau lúc 3 giờ chiều."
+        }
+      },
+      {
+        "word": "前後",
+        "hiragana": "ぜんご",
+        "romaji": "zengo",
+        "vietnamese": "Trước sau, khoảng",
+        "example": {
+          "jp": "午前７時前後に起きます。",
+          "hiragana": "ごぜんしちじぜんごにおきます。",
+          "romaji": "Gozen shichiji zengo ni okimasu.",
+          "vn": "Tôi dậy vào khoảng 7 giờ sáng."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "見",
+    "hiragana": "けん / みます / みえます / みせます",
+    "romaji": "ken / mimasu / miemasu / misemasu",
+    "vietnamese": "Nhìn, xem, ngắm",
+    "words": [
+      {
+        "word": "見学",
+        "hiragana": "けんがく",
+        "romaji": "kengaku",
+        "vietnamese": "Tham quan, kiến tập",
+        "example": {
+          "jp": "工場を見学します。",
+          "hiragana": "こうじょうをけんがくします。",
+          "romaji": "Koujou o kengaku shimasu.",
+          "vn": "Tôi đi tham quan nhà máy."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "食",
+    "hiragana": "しょく / たべます",
+    "romaji": "shoku / tabemasu",
+    "vietnamese": "Ăn",
+    "words": [
+      {
+        "word": "食事",
+        "hiragana": "しょくじ",
+        "romaji": "shokuji",
+        "vietnamese": "Bữa ăn, việc ăn uống",
+        "example": {
+          "jp": "家族と食事をします。",
+          "hiragana": "かぞくとしょくじをします。",
+          "romaji": "Kazoku to shokuji o shimasu.",
+          "vn": "Tôi ăn cơm cùng gia đình."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "飲",
+    "hiragana": "いん / のみます",
+    "romaji": "in / nomimasu",
+    "vietnamese": "Uống",
+    "words": [
+      {
+        "word": "飲食",
+        "hiragana": "いんしょく",
+        "romaji": "inshoku",
+        "vietnamese": "Ăn uống",
+        "example": {
+          "jp": "駅で飲食はできません。",
+          "hiragana": "えきでいんしょくはできません。",
+          "romaji": "Eki de inshoku wa dekimasen.",
+          "vn": "Không được ăn uống ở nhà ga."
+        }
+      },
+      {
+        "word": "飲み水",
+        "hiragana": "のみみず",
+        "romaji": "nomimizu",
+        "vietnamese": "Nước uống",
+        "example": {
+          "jp": "飲み水を持ってきてください。",
+          "hiragana": "のみみずをもってきてください。",
+          "romaji": "Nomimizu o motte kite kudasai.",
+          "vn": "Hãy mang theo nước uống."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "買",
+    "hiragana": "ばい / かいます",
+    "romaji": "bai / kaimasu",
+    "vietnamese": "Mua sắm",
+    "words": [
+      {
+        "word": "買います",
+        "hiragana": "かいます",
+        "romaji": "kaimasu",
+        "vietnamese": "Mua",
+        "example": {
+          "jp": "新しいかばんを買います。",
+          "hiragana": "あたらしいかばんをかいます。",
+          "romaji": "Atarashii kaban o kaimasu.",
+          "vn": "Tôi mua cái cặp mới."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "物",
+    "hiragana": "ぶつ / もつ / もの",
+    "romaji": "butsu / motsu / mono",
+    "vietnamese": "Đồ vật, động vật",
+    "words": [
+      {
+        "word": "買い物",
+        "hiragana": "かいもの",
+        "romaji": "kaimono",
+        "vietnamese": "Mua sắm, việc mua hàng",
+        "example": {
+          "jp": "週末に買い物をします。",
+          "hiragana": "しゅうまつにかいものをします。",
+          "romaji": "Shuumatsu ni kaimono o shimasu.",
+          "vn": "Cuối tuần tôi đi mua sắm."
+        }
+      },
+      {
+        "word": "食べ物",
+        "hiragana": "たべもの",
+        "romaji": "tabemono",
+        "vietnamese": "Đồ ăn, thức ăn",
+        "example": {
+          "jp": "日本の食べ物が好きです。",
+          "hiragana": "にほんのたべものがすきです。",
+          "romaji": "Nihon no tabemono ga suki desu.",
+          "vn": "Tôi thích đồ ăn Nhật."
+        }
+      },
+      {
+        "word": "飲み物",
+        "hiragana": "のみもの",
+        "romaji": "nomimono",
+        "vietnamese": "Đồ uống",
+        "example": {
+          "jp": "冷たい飲み物をください。",
+          "hiragana": "つめたいのみものをください。",
+          "romaji": "Tsumetai nomimono o kudasai.",
+          "vn": "Cho tôi đồ uống lạnh."
+        }
+      },
+      {
+        "word": "人物",
+        "hiragana": "じんぶつ",
+        "romaji": "jinbutsu",
+        "vietnamese": "Nhân vật, con người",
+        "example": {
+          "jp": "歴史の人物を勉強します。",
+          "hiragana": "れきしのじんぶつをべんきょうします。",
+          "romaji": "Rekishi no jinbutsu o benkyou shimasu.",
+          "vn": "Tôi học về các nhân vật lịch sử."
+        }
+      },
+      {
+        "word": "見物",
+        "hiragana": "けんぶつ",
+        "romaji": "kenbutsu",
+        "vietnamese": "Tham quan, ngắm cảnh",
+        "example": {
+          "jp": "京都でお寺を見物しました。",
+          "hiragana": "きょうとでおてらをけんぶつしました。",
+          "romaji": "Kyouto de otera o kenbutsu shimashita.",
+          "vn": "Tôi đã đi tham quan chùa ở Kyoto."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "行",
+    "hiragana": "こう / いきます",
+    "romaji": "kou / ikimasu",
+    "vietnamese": "Đi, hành động",
+    "words": [
+      {
+        "word": "行きます",
+        "hiragana": "いきます",
+        "romaji": "ikimasu",
+        "vietnamese": "Đi",
+        "example": {
+          "jp": "毎日学校へ行きます。",
+          "hiragana": "まいにちがっこうへいきます。",
+          "romaji": "Mainichi gakkou e ikimasu.",
+          "vn": "Hàng ngày tôi đi đến trường."
+        }
+      }
+    ]
+  },
+  {
+    "kanji": "休",
+    "hiragana": "きゅう / やすみ / やすみます",
+    "romaji": "kyuu / yasumi / yasumimasu",
+    "vietnamese": "Nghỉ ngơi",
+    "words": [
+      {
+        "word": "休日",
+        "hiragana": "きゅうじつ",
+        "romaji": "kyuujitsu",
+        "vietnamese": "Ngày nghỉ",
+        "example": {
+          "jp": "休日に映画を見ます。",
+          "hiragana": "きゅうじつにえいがをみます。",
+          "romaji": "Kyuujitsu ni eiga o mimasu.",
+          "vn": "Tôi xem phim vào ngày nghỉ."
+        }
+      },
+      {
+        "word": "休みの日",
+        "hiragana": "やすみのひ",
+        "romaji": "yasumi no hi",
+        "vietnamese": "Ngày nghỉ",
+        "example": {
+          "jp": "休みの日は公園へ行きます。",
+          "hiragana": "やすみのひはこうえんへいきます。",
+          "romaji": "Yasumi no hi wa kouen e ikimasu.",
+          "vn": "Ngày nghỉ tôi đi công viên."
+        }
+      }
+    ]
+  }
+]

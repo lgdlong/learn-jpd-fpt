@@ -44,7 +44,7 @@ export default function Navbar() {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul className="navbar-nav flex-column align-items-center">
+          <ul className="navbar-nav flex-lg-row align-items-center">
             <li className="nav-item d-lg-none">
               <Link
                 className={`nav-link ${pathname === "/" ? "active" : ""}`}
@@ -64,6 +64,18 @@ export default function Navbar() {
                 onClick={closeNavbar}
               >
                 Ngữ pháp
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className={`nav-link ${
+                  pathname.startsWith("/kanji") ? "active" : ""
+                }`}
+                href="/kanji"
+                onClick={closeNavbar}
+              >
+                Kanji
               </Link>
             </li>
 

@@ -78,7 +78,7 @@ export default function GrammarSidebar() {
     <>
       {/* SIDEBAR FOR DESKTOP */}
       <aside className="grammar-sidebar d-none d-md-block">
-        <h1 className="text-center">JPD123</h1>
+        <h1 className="text-center">Ngữ pháp</h1>
         <div className="sidebar-content open">
           <nav>
             <ul className="sidebar-nav">
@@ -136,8 +136,8 @@ export default function GrammarSidebar() {
         className="sidebar-toggle d-md-none"
         onClick={() => setIsMobileMenuOpen(true)}
       >
-        <span>Mục lục</span>
-        <i className="fas fa-chevron-down" />
+        <span>MỤC LỤC</span>
+        <i className="bi bi-list ms-2" />
       </div>
 
       {/* MOBILE OVERLAY MENU */}

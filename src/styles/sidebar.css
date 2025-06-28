@@ -64,6 +64,7 @@
     border-bottom: 1px solid #e0e0e0;
     background: #fff;
     font-weight: 600;
+    font-size: 1.25rem;
     -webkit-user-select: none;
     user-select: none;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
@@ -142,7 +143,7 @@
     padding: 16px 12px;
   }
   .sidebar-mobile-content .sidebar-nav-link {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     padding: 16px 18px;
     border-radius: 8px;
     margin-bottom: 6px;

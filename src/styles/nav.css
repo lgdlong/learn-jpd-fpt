@@ -1,55 +1,97 @@
-/* Navbar Styling */
-.navbar.sticky-top {
-  border-bottom: 1px solid #e0e0e0;
-  z-index: 1030;
+/* Nav-link custom style */
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500; /* Dày vừa, 400 là normal, 500 vừa, 600 là semi-bold */
+  letter-spacing: 1.5px;
+  margin-left: 14px;
+  margin-right: 14px;
+  transition: color 0.2s;
 }
 
-.navbar {
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  font-weight: 700;
+/* Nếu muốn dày hơn nữa, tăng lên 600 */
+/* .navbar-nav .nav-link { font-weight: 600; } */
+
+.navbar-nav .nav-link.active {
+  color: #6200ea !important;
+  border-bottom: 2px solid #6200ea;
 }
 
-.navbar-brand {
-  font-weight: 600;
-  font-size: 1.25rem;
-}
-
-/* Logo Animation (nếu có logo image trong navbar) */
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) img {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-/* Hover Effects cho logo trong Navbar */
-a img {
-  transition: transform 0.3s ease;
-}
-a:hover img {
-  transform: scale(1.1);
-}
-
-/* Dark Background Utility */
-.bg-dark {
-  background-color: #343a40 !important;
-}
-
-/* Responsive Navbar */
+/* Responsive: nav-link chuyển sang cột dọc trên mobile */
 @media (max-width: 768px) {
-  .navbar.sticky-top {
-    z-index: 2000; /* Đảm bảo cao hơn các thành phần khác như .search-container */
+  .navbar-nav {
+    flex-direction: column !important; /* Chuyển thành cột */
+    align-items: stretch !important; /* Cho rộng ra đều */
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 10px; /* Cách đều các mục */
   }
-  .navbar {
-    margin-bottom: 0 !important;
+  .navbar-nav .nav-link {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0;
+    font-size: 1.15rem; /* To thêm tí nếu thích */
+    text-align: center; /* Canh giữa */
+    border-bottom: none;
   }
+}
+
+/* Kanji Sidebar mobile centering and header alignment */
+@media (max-width: 991.98px) {
+  .kanji-sidebar-mobile-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1050;
+  }
+  .kanji-sidebar-mobile-content {
+    background: #fff;
+    border-radius: 12px;
+    width: 90vw;
+    max-width: 400px;
+    margin: auto;
+    padding: 1.5rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  }
+  .kanji-sidebar-mobile-header {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  .kanji-sidebar-mobile-close {
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #888;
+  }
+}
+
+/* Kanji Navbar underline (purple) like home/grammar */
+.navbar .nav-link.active {
+  color: #6f42c1 !important;
+  border-bottom: 3px solid #6f42c1;
+  font-weight: 600;
+  background: none;
+}
+
+/* Remove default underline for inactive */
+.navbar .nav-link {
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.2s;
 }
